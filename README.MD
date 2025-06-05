@@ -46,6 +46,11 @@ SpaceForgeOS/
 - Use AI to dynamically allocate power and time across tasks.
 - Provide a framework to test future orbital fabrication strategies.
 
+## Useful commands
+ ```{json}
+ .\Debug\spaceforge_engine.exe s
+ ```
+
 ---
 
 ## 📌 Future Plans

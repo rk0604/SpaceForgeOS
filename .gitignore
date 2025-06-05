@@ -1,0 +1,53 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+*.sqlite3
+*.log
+
+# Ignore pip wheel cache
+pip-wheel-metadata/
+*.egg-info/
+
+# -------------------------
+# Node / Vite (client/)
+# -------------------------
+node_modules/
+dist/
+build/
+.vite/
+
+# -------------------------
+# C++ / CMake (cpp_core/)
+# -------------------------
+*.exe
+*.out
+*.obj
+*.o
+*.so
+*.dll
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# -------------------------
+# VSCode / IDEs
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS / Misc
+# -------------------------
+.DS_Store
+Thumbs.db
+*.lnk
