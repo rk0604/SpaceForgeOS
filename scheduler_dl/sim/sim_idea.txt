@@ -1,0 +1,43 @@
+timestamp
+# Global simulation step number (e.g., 0, 1, 2...). Advances once per tick.
+
+task_id
+# Unique identifier for the full manufacturing process of one wafer or chip unit (e.g., T001). Groups all task phases.
+
+task_phase_id
+# Unique ID for the current phase of a task (e.g., T001_deposition). Treated as the atomic unit of scheduling.
+
+task_phase_name
+# Name of the current manufacturing phase being executed (e.g., "deposition", "ion_implantation", "crystal_growth").
+
+phase_time_remaining(min) - minutes
+# Number of simulation steps left to complete this phase.
+
+phase_power_demand(w) - watts
+# Amount of power (in watts or units) required per step to execute this phase.
+
+phase_power_used(w) - watts
+# Actual power used this step. Could be lower than demand if power is limited.
+
+phase_energy_used_total(w) - watts
+# Cumulative power consumed by this task_phase_id since it began.
+
+battery_level - % value
+# Current battery reserve level after this task phase's power draw.
+
+task_phase_status
+# Current execution state of the phase: "waiting", "processing", "done", or "power_blocked".
+
+failure_event
+# 0 or 1. Indicates whether a system or phase failure occurred at this step.
+
+orbital_phase
+# "sunlight" or "eclipse", based on orbital conditions. Affects available power.
+
+task_queue_snapshot
+# List of active task_ids in the queue at this timestep. Shows scheduling context (e.g., ['T002', 'T003']).
+
+task_throughput_counter
+# Cumulative number of completed task_ids (i.e., full wafer jobs). Used as reward for throughput optimization.
+
+# Tasks simulated: deposition, ion implantation, and crystal growth — representing core energy-intensive processes in orbital semiconductor manufacturing.
