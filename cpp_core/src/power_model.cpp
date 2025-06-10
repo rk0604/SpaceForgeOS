@@ -1,1 +1,0 @@
-// class	Computes power input from orbital phase efficiently

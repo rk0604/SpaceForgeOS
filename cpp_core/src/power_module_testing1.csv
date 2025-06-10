@@ -1,0 +1,2881 @@
+Minute|,Orbit|,Battery|,Available|,Task|,Phase|,Time_Done|
+0,sunlight,1000,300,T_1,deposition,1 ✅ Progressed
+
+1,sunlight,1000,300,T_1,deposition,2 ✅ Progressed
+
+2,sunlight,1000,300,T_1,deposition,3 ✅ Progressed
+
+3,sunlight,1000,300,T_1,deposition,4 ✅ Progressed
+
+4,sunlight,1000,300,T_1,deposition,5 ✅ Progressed
+
+5,sunlight,1000,300,T_1,deposition,6 ✅ Progressed
+
+6,sunlight,1000,300,T_1,deposition,7 ✅ Progressed
+
+7,sunlight,1000,300,T_1,deposition,8 ✅ Progressed
+
+8,sunlight,1000,300,T_1,deposition,9 ✅ Progressed
+
+9,sunlight,1000,300,T_1,deposition,10 ✅ Progressed
+
+10,sunlight,1000,300,T_1,deposition,11 ✅ Progressed
+
+11,sunlight,1000,300,T_1,deposition,12 ✅ Progressed
+
+12,sunlight,1000,300,T_1,deposition,13 ✅ Progressed
+
+13,sunlight,1000,300,T_1,deposition,14 ✅ Progressed
+
+14,sunlight,1000,300,T_1,deposition,15 ✅ Progressed
+
+15,sunlight,1000,300,T_1,deposition,16 ✅ Progressed
+
+16,sunlight,1000,300,T_1,deposition,17 ✅ Progressed
+
+17,sunlight,1000,300,T_1,deposition,18 ✅ Progressed
+
+18,sunlight,1000,300,T_1,deposition,19 ✅ Progressed
+
+19,sunlight,1000,300,T_1,deposition,20 ✅ Progressed
+
+20,sunlight,1000,300,T_1,deposition,21 ✅ Progressed
+
+21,sunlight,1000,300,T_1,deposition,22 ✅ Progressed
+
+22,sunlight,1000,300,T_1,deposition,23 ✅ Progressed
+
+23,sunlight,1000,300,T_1,deposition,24 ✅ Progressed
+
+24,sunlight,1000,300,T_1,deposition,25 ✅ Progressed
+
+25,sunlight,1000,300,T_1,deposition,26 ✅ Progressed
+
+26,sunlight,1000,300,T_1,deposition,27 ✅ Progressed
+
+27,sunlight,1000,300,T_1,deposition,28 ✅ Progressed
+
+28,sunlight,1000,300,T_1,deposition,29 ✅ Progressed
+
+29,sunlight,1000,300,T_1,deposition,30 ✅ Progressed
+
+30,sunlight,1000,300,T_1,deposition,31 ✅ Progressed
+
+31,sunlight,1000,300,T_1,deposition,32 ✅ Progressed
+
+32,sunlight,1000,300,T_1,deposition,33 ✅ Progressed
+
+33,sunlight,1000,300,T_1,deposition,34 ✅ Progressed
+
+34,sunlight,1000,300,T_1,deposition,35 ✅ Progressed
+
+35,sunlight,1000,300,T_1,deposition,36 ✅ Progressed
+
+36,sunlight,1000,300,T_1,deposition,37 ✅ Progressed
+
+37,sunlight,1000,300,T_1,deposition,38 ✅ Progressed
+
+38,sunlight,1000,300,T_1,deposition,39 ✅ Progressed
+
+39,sunlight,1000,300,T_1,deposition,40 ✅ Progressed
+
+40,sunlight,1000,300,T_1,deposition,41 ✅ Progressed
+
+41,sunlight,1000,300,T_1,deposition,42 ✅ Progressed
+
+42,sunlight,1000,300,T_1,deposition,43 ✅ Progressed
+
+43,sunlight,1000,300,T_1,deposition,44 ✅ Progressed
+
+44,sunlight,1000,300,T_1,deposition,45 ✅ Progressed
+
+45,eclipse,700,0,T_1,deposition,46 ✅ Progressed
+
+46,eclipse,400,0,T_1,deposition,47 ✅ Progressed
+
+47,eclipse,100,0,T_1,deposition,48 ✅ Progressed
+
+48,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+49,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+50,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+51,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+52,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+53,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+54,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+55,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+56,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+57,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+58,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+59,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+60,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+61,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+62,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+63,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+64,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+65,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+66,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+67,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+68,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+69,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+70,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+71,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+72,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+73,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+74,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+75,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+76,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+77,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+78,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+79,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+80,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+81,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+82,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+83,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+84,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+85,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+86,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+87,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+88,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+89,eclipse,100,100,T_1,deposition,48 ❌ Waiting
+
+90,sunlight,400,300,T_1,deposition,49 ✅ Progressed
+
+91,sunlight,700,300,T_1,deposition,50 ✅ Progressed
+
+92,sunlight,1000,300,T_1,deposition,51 ✅ Progressed
+
+93,sunlight,1000,300,T_1,deposition,52 ✅ Progressed
+
+94,sunlight,1000,300,T_1,deposition,53 ✅ Progressed
+
+95,sunlight,1000,300,T_1,deposition,54 ✅ Progressed
+
+96,sunlight,1000,300,T_1,deposition,55 ✅ Progressed
+
+97,sunlight,1000,300,T_1,deposition,56 ✅ Progressed
+
+98,sunlight,1000,300,T_1,deposition,57 ✅ Progressed
+
+99,sunlight,1000,300,T_1,deposition,58 ✅ Progressed
+
+100,sunlight,1000,300,T_1,deposition,59 ✅ Progressed
+
+101,sunlight,1000,300,T_1,deposition,60 ✅ Progressed
+
+102,sunlight,1000,400,T_1,ion_implantation,1 ✅ Progressed
+
+103,sunlight,1000,400,T_1,ion_implantation,2 ✅ Progressed
+
+104,sunlight,1000,400,T_1,ion_implantation,3 ✅ Progressed
+
+105,sunlight,1000,400,T_1,ion_implantation,4 ✅ Progressed
+
+106,sunlight,1000,400,T_1,ion_implantation,5 ✅ Progressed
+
+107,sunlight,1000,400,T_1,ion_implantation,6 ✅ Progressed
+
+108,sunlight,1000,400,T_1,ion_implantation,7 ✅ Progressed
+
+109,sunlight,1000,400,T_1,ion_implantation,8 ✅ Progressed
+
+110,sunlight,1000,400,T_1,ion_implantation,9 ✅ Progressed
+
+111,sunlight,1000,400,T_1,ion_implantation,10 ✅ Progressed
+
+112,sunlight,1000,400,T_1,ion_implantation,11 ✅ Progressed
+
+113,sunlight,1000,400,T_1,ion_implantation,12 ✅ Progressed
+
+114,sunlight,1000,400,T_1,ion_implantation,13 ✅ Progressed
+
+115,sunlight,1000,400,T_1,ion_implantation,14 ✅ Progressed
+
+116,sunlight,1000,400,T_1,ion_implantation,15 ✅ Progressed
+
+117,sunlight,1000,400,T_1,ion_implantation,16 ✅ Progressed
+
+118,sunlight,1000,400,T_1,ion_implantation,17 ✅ Progressed
+
+119,sunlight,1000,400,T_1,ion_implantation,18 ✅ Progressed
+
+120,sunlight,1000,400,T_1,ion_implantation,19 ✅ Progressed
+
+121,sunlight,1000,400,T_1,ion_implantation,20 ✅ Progressed
+
+122,sunlight,1000,350,T_1,crystal_growth,1 ✅ Progressed
+
+123,sunlight,1000,350,T_1,crystal_growth,2 ✅ Progressed
+
+124,sunlight,1000,350,T_1,crystal_growth,3 ✅ Progressed
+
+125,sunlight,1000,350,T_1,crystal_growth,4 ✅ Progressed
+
+126,sunlight,1000,350,T_1,crystal_growth,5 ✅ Progressed
+
+127,sunlight,1000,350,T_1,crystal_growth,6 ✅ Progressed
+
+128,sunlight,1000,350,T_1,crystal_growth,7 ✅ Progressed
+
+129,sunlight,1000,350,T_1,crystal_growth,8 ✅ Progressed
+
+130,sunlight,1000,350,T_1,crystal_growth,9 ✅ Progressed
+
+131,sunlight,1000,350,T_1,crystal_growth,10 ✅ Progressed
+
+132,sunlight,1000,350,T_1,crystal_growth,11 ✅ Progressed
+
+133,sunlight,1000,350,T_1,crystal_growth,12 ✅ Progressed
+
+134,sunlight,1000,350,T_1,crystal_growth,13 ✅ Progressed
+
+135,eclipse,750,50,T_1,crystal_growth,14 ✅ Progressed
+
+136,eclipse,500,50,T_1,crystal_growth,15 ✅ Progressed
+
+137,eclipse,250,50,T_1,crystal_growth,16 ✅ Progressed
+
+138,eclipse,0,0,T_1,crystal_growth,17 ✅ Progressed
+
+139,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+140,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+141,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+142,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+143,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+144,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+145,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+146,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+147,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+148,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+149,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+150,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+151,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+152,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+153,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+154,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+155,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+156,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+157,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+158,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+159,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+160,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+161,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+162,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+163,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+164,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+165,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+166,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+167,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+168,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+169,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+170,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+171,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+172,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+173,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+174,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+175,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+176,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+177,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+178,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+179,eclipse,0,0,T_1,crystal_growth,17 ❌ Waiting
+
+180,sunlight,300,350,T_1,crystal_growth,18 ✅ Progressed
+
+181,sunlight,600,350,T_1,crystal_growth,19 ✅ Progressed
+
+182,sunlight,900,350,T_1,crystal_growth,20 ✅ Progressed
+
+183,sunlight,1000,350,T_1,crystal_growth,21 ✅ Progressed
+
+184,sunlight,1000,350,T_1,crystal_growth,22 ✅ Progressed
+
+185,sunlight,1000,350,T_1,crystal_growth,23 ✅ Progressed
+
+186,sunlight,1000,350,T_1,crystal_growth,24 ✅ Progressed
+
+187,sunlight,1000,350,T_1,crystal_growth,25 ✅ Progressed
+
+188,sunlight,1000,350,T_1,crystal_growth,26 ✅ Progressed
+
+189,sunlight,1000,350,T_1,crystal_growth,27 ✅ Progressed
+
+190,sunlight,1000,350,T_1,crystal_growth,28 ✅ Progressed
+
+191,sunlight,1000,350,T_1,crystal_growth,29 ✅ Progressed
+
+192,sunlight,1000,350,T_1,crystal_growth,30 ✅ Progressed
+
+193,sunlight,1000,350,T_1,crystal_growth,31 ✅ Progressed
+
+194,sunlight,1000,350,T_1,crystal_growth,32 ✅ Progressed
+
+195,sunlight,1000,350,T_1,crystal_growth,33 ✅ Progressed
+
+196,sunlight,1000,350,T_1,crystal_growth,34 ✅ Progressed
+
+197,sunlight,1000,350,T_1,crystal_growth,35 ✅ Progressed
+
+198,sunlight,1000,350,T_1,crystal_growth,36 ✅ Progressed
+
+199,sunlight,1000,350,T_1,crystal_growth,37 ✅ Progressed
+
+200,sunlight,1000,350,T_1,crystal_growth,38 ✅ Progressed
+
+201,sunlight,1000,350,T_1,crystal_growth,39 ✅ Progressed
+
+202,sunlight,1000,350,T_1,crystal_growth,40 ✅ Progressed
+
+203,sunlight,1000,350,T_1,crystal_growth,41 ✅ Progressed
+
+204,sunlight,1000,350,T_1,crystal_growth,42 ✅ Progressed
+
+205,sunlight,1000,350,T_1,crystal_growth,43 ✅ Progressed
+
+206,sunlight,1000,350,T_1,crystal_growth,44 ✅ Progressed
+
+207,sunlight,1000,350,T_1,crystal_growth,45 ✅ Progressed
+
+208,sunlight,1000,350,T_1,crystal_growth,46 ✅ Progressed
+
+209,sunlight,1000,350,T_1,crystal_growth,47 ✅ Progressed
+
+210,sunlight,1000,350,T_1,crystal_growth,48 ✅ Progressed
+
+211,sunlight,1000,350,T_1,crystal_growth,49 ✅ Progressed
+
+212,sunlight,1000,350,T_1,crystal_growth,50 ✅ Progressed
+
+213,sunlight,1000,350,T_1,crystal_growth,51 ✅ Progressed
+
+214,sunlight,1000,350,T_1,crystal_growth,52 ✅ Progressed
+
+215,sunlight,1000,350,T_1,crystal_growth,53 ✅ Progressed
+
+216,sunlight,1000,350,T_1,crystal_growth,54 ✅ Progressed
+
+217,sunlight,1000,350,T_1,crystal_growth,55 ✅ Progressed
+
+218,sunlight,1000,350,T_1,crystal_growth,56 ✅ Progressed
+
+219,sunlight,1000,350,T_1,crystal_growth,57 ✅ Progressed
+
+220,sunlight,1000,350,T_1,crystal_growth,58 ✅ Progressed
+
+221,sunlight,1000,350,T_1,crystal_growth,59 ✅ Progressed
+
+222,sunlight,1000,350,T_1,crystal_growth,60 ✅ Progressed
+
+223,sunlight,1000,350,T_1,crystal_growth,61 ✅ Progressed
+
+224,sunlight,1000,350,T_1,crystal_growth,62 ✅ Progressed
+
+225,eclipse,750,50,T_1,crystal_growth,63 ✅ Progressed
+
+226,eclipse,500,50,T_1,crystal_growth,64 ✅ Progressed
+
+227,eclipse,250,50,T_1,crystal_growth,65 ✅ Progressed
+
+228,eclipse,0,0,T_1,crystal_growth,66 ✅ Progressed
+
+229,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+230,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+231,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+232,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+233,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+234,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+235,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+236,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+237,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+238,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+239,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+240,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+241,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+242,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+243,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+244,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+245,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+246,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+247,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+248,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+249,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+250,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+251,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+252,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+253,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+254,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+255,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+256,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+257,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+258,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+259,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+260,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+261,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+262,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+263,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+264,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+265,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+266,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+267,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+268,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+269,eclipse,0,0,T_1,crystal_growth,66 ❌ Waiting
+
+270,sunlight,300,350,T_1,crystal_growth,67 ✅ Progressed
+
+271,sunlight,600,350,T_1,crystal_growth,68 ✅ Progressed
+
+272,sunlight,900,350,T_1,crystal_growth,69 ✅ Progressed
+
+273,sunlight,1000,350,T_1,crystal_growth,70 ✅ Progressed
+
+274,sunlight,1000,350,T_1,crystal_growth,71 ✅ Progressed
+
+275,sunlight,1000,350,T_1,crystal_growth,72 ✅ Progressed
+
+276,sunlight,1000,350,T_1,crystal_growth,73 ✅ Progressed
+
+277,sunlight,1000,350,T_1,crystal_growth,74 ✅ Progressed
+
+278,sunlight,1000,350,T_1,crystal_growth,75 ✅ Progressed
+
+279,sunlight,1000,350,T_1,crystal_growth,76 ✅ Progressed
+
+280,sunlight,1000,350,T_1,crystal_growth,77 ✅ Progressed
+
+281,sunlight,1000,350,T_1,crystal_growth,78 ✅ Progressed
+
+282,sunlight,1000,350,T_1,crystal_growth,79 ✅ Progressed
+
+283,sunlight,1000,350,T_1,crystal_growth,80 ✅ Progressed
+
+284,sunlight,1000,350,T_1,crystal_growth,81 ✅ Progressed
+
+285,sunlight,1000,350,T_1,crystal_growth,82 ✅ Progressed
+
+286,sunlight,1000,350,T_1,crystal_growth,83 ✅ Progressed
+
+287,sunlight,1000,350,T_1,crystal_growth,84 ✅ Progressed
+
+288,sunlight,1000,350,T_1,crystal_growth,85 ✅ Progressed
+
+289,sunlight,1000,350,T_1,crystal_growth,86 ✅ Progressed
+
+290,sunlight,1000,350,T_1,crystal_growth,87 ✅ Progressed
+
+291,sunlight,1000,350,T_1,crystal_growth,88 ✅ Progressed
+
+292,sunlight,1000,350,T_1,crystal_growth,89 ✅ Progressed
+
+293,sunlight,1000,350,T_1,crystal_growth,90 ✅ Progressed
+
+294,sunlight,1000,350,T_1,crystal_growth,91 ✅ Progressed
+
+295,sunlight,1000,350,T_1,crystal_growth,92 ✅ Progressed
+
+296,sunlight,1000,350,T_1,crystal_growth,93 ✅ Progressed
+
+297,sunlight,1000,350,T_1,crystal_growth,94 ✅ Progressed
+
+298,sunlight,1000,350,T_1,crystal_growth,95 ✅ Progressed
+
+299,sunlight,1000,350,T_1,crystal_growth,96 ✅ Progressed
+
+300,sunlight,1000,350,T_1,crystal_growth,97 ✅ Progressed
+
+301,sunlight,1000,350,T_1,crystal_growth,98 ✅ Progressed
+
+302,sunlight,1000,350,T_1,crystal_growth,99 ✅ Progressed
+
+303,sunlight,1000,350,T_1,crystal_growth,100 ✅ Progressed
+
+304,sunlight,1000,350,T_1,crystal_growth,101 ✅ Progressed
+
+305,sunlight,1000,350,T_1,crystal_growth,102 ✅ Progressed
+
+306,sunlight,1000,350,T_1,crystal_growth,103 ✅ Progressed
+
+307,sunlight,1000,350,T_1,crystal_growth,104 ✅ Progressed
+
+308,sunlight,1000,350,T_1,crystal_growth,105 ✅ Progressed
+
+309,sunlight,1000,350,T_1,crystal_growth,106 ✅ Progressed
+
+310,sunlight,1000,350,T_1,crystal_growth,107 ✅ Progressed
+
+311,sunlight,1000,350,T_1,crystal_growth,108 ✅ Progressed
+
+312,sunlight,1000,350,T_1,crystal_growth,109 ✅ Progressed
+
+313,sunlight,1000,350,T_1,crystal_growth,110 ✅ Progressed
+
+314,sunlight,1000,350,T_1,crystal_growth,111 ✅ Progressed
+
+315,eclipse,750,50,T_1,crystal_growth,112 ✅ Progressed
+
+316,eclipse,500,50,T_1,crystal_growth,113 ✅ Progressed
+
+317,eclipse,250,50,T_1,crystal_growth,114 ✅ Progressed
+
+318,eclipse,0,0,T_1,crystal_growth,115 ✅ Progressed
+
+319,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+320,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+321,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+322,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+323,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+324,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+325,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+326,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+327,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+328,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+329,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+330,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+331,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+332,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+333,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+334,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+335,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+336,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+337,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+338,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+339,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+340,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+341,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+342,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+343,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+344,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+345,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+346,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+347,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+348,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+349,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+350,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+351,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+352,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+353,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+354,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+355,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+356,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+357,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+358,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+359,eclipse,0,0,T_1,crystal_growth,115 ❌ Waiting
+
+360,sunlight,300,350,T_1,crystal_growth,116 ✅ Progressed
+
+361,sunlight,600,350,T_1,crystal_growth,117 ✅ Progressed
+
+362,sunlight,900,350,T_1,crystal_growth,118 ✅ Progressed
+
+363,sunlight,1000,350,T_1,crystal_growth,119 ✅ Progressed
+
+364,sunlight,1000,350,T_1,crystal_growth,120 ✅ Progressed
+
+365,sunlight,1000,300,T_2,deposition,1 ✅ Progressed
+
+366,sunlight,1000,300,T_2,deposition,2 ✅ Progressed
+
+367,sunlight,1000,300,T_2,deposition,3 ✅ Progressed
+
+368,sunlight,1000,300,T_2,deposition,4 ✅ Progressed
+
+369,sunlight,1000,300,T_2,deposition,5 ✅ Progressed
+
+370,sunlight,1000,300,T_2,deposition,6 ✅ Progressed
+
+371,sunlight,1000,300,T_2,deposition,7 ✅ Progressed
+
+372,sunlight,1000,300,T_2,deposition,8 ✅ Progressed
+
+373,sunlight,1000,300,T_2,deposition,9 ✅ Progressed
+
+374,sunlight,1000,300,T_2,deposition,10 ✅ Progressed
+
+375,sunlight,1000,300,T_2,deposition,11 ✅ Progressed
+
+376,sunlight,1000,300,T_2,deposition,12 ✅ Progressed
+
+377,sunlight,1000,300,T_2,deposition,13 ✅ Progressed
+
+378,sunlight,1000,300,T_2,deposition,14 ✅ Progressed
+
+379,sunlight,1000,300,T_2,deposition,15 ✅ Progressed
+
+380,sunlight,1000,300,T_2,deposition,16 ✅ Progressed
+
+381,sunlight,1000,300,T_2,deposition,17 ✅ Progressed
+
+382,sunlight,1000,300,T_2,deposition,18 ✅ Progressed
+
+383,sunlight,1000,300,T_2,deposition,19 ✅ Progressed
+
+384,sunlight,1000,300,T_2,deposition,20 ✅ Progressed
+
+385,sunlight,1000,300,T_2,deposition,21 ✅ Progressed
+
+386,sunlight,1000,300,T_2,deposition,22 ✅ Progressed
+
+387,sunlight,1000,300,T_2,deposition,23 ✅ Progressed
+
+388,sunlight,1000,300,T_2,deposition,24 ✅ Progressed
+
+389,sunlight,1000,300,T_2,deposition,25 ✅ Progressed
+
+390,sunlight,1000,300,T_2,deposition,26 ✅ Progressed
+
+391,sunlight,1000,300,T_2,deposition,27 ✅ Progressed
+
+392,sunlight,1000,300,T_2,deposition,28 ✅ Progressed
+
+393,sunlight,1000,300,T_2,deposition,29 ✅ Progressed
+
+394,sunlight,1000,300,T_2,deposition,30 ✅ Progressed
+
+395,sunlight,1000,300,T_2,deposition,31 ✅ Progressed
+
+396,sunlight,1000,300,T_2,deposition,32 ✅ Progressed
+
+397,sunlight,1000,300,T_2,deposition,33 ✅ Progressed
+
+398,sunlight,1000,300,T_2,deposition,34 ✅ Progressed
+
+399,sunlight,1000,300,T_2,deposition,35 ✅ Progressed
+
+400,sunlight,1000,300,T_2,deposition,36 ✅ Progressed
+
+401,sunlight,1000,300,T_2,deposition,37 ✅ Progressed
+
+402,sunlight,1000,300,T_2,deposition,38 ✅ Progressed
+
+403,sunlight,1000,300,T_2,deposition,39 ✅ Progressed
+
+404,sunlight,1000,300,T_2,deposition,40 ✅ Progressed
+
+405,eclipse,700,0,T_2,deposition,41 ✅ Progressed
+
+406,eclipse,400,0,T_2,deposition,42 ✅ Progressed
+
+407,eclipse,100,0,T_2,deposition,43 ✅ Progressed
+
+408,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+409,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+410,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+411,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+412,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+413,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+414,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+415,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+416,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+417,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+418,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+419,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+420,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+421,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+422,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+423,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+424,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+425,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+426,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+427,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+428,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+429,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+430,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+431,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+432,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+433,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+434,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+435,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+436,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+437,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+438,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+439,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+440,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+441,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+442,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+443,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+444,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+445,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+446,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+447,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+448,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+449,eclipse,100,100,T_2,deposition,43 ❌ Waiting
+
+450,sunlight,400,300,T_2,deposition,44 ✅ Progressed
+
+451,sunlight,700,300,T_2,deposition,45 ✅ Progressed
+
+452,sunlight,1000,300,T_2,deposition,46 ✅ Progressed
+
+453,sunlight,1000,300,T_2,deposition,47 ✅ Progressed
+
+454,sunlight,1000,300,T_2,deposition,48 ✅ Progressed
+
+455,sunlight,1000,300,T_2,deposition,49 ✅ Progressed
+
+456,sunlight,1000,300,T_2,deposition,50 ✅ Progressed
+
+457,sunlight,1000,300,T_2,deposition,51 ✅ Progressed
+
+458,sunlight,1000,300,T_2,deposition,52 ✅ Progressed
+
+459,sunlight,1000,300,T_2,deposition,53 ✅ Progressed
+
+460,sunlight,1000,300,T_2,deposition,54 ✅ Progressed
+
+461,sunlight,1000,300,T_2,deposition,55 ✅ Progressed
+
+462,sunlight,1000,300,T_2,deposition,56 ✅ Progressed
+
+463,sunlight,1000,300,T_2,deposition,57 ✅ Progressed
+
+464,sunlight,1000,300,T_2,deposition,58 ✅ Progressed
+
+465,sunlight,1000,300,T_2,deposition,59 ✅ Progressed
+
+466,sunlight,1000,300,T_2,deposition,60 ✅ Progressed
+
+467,sunlight,1000,400,T_2,ion_implantation,1 ✅ Progressed
+
+468,sunlight,1000,400,T_2,ion_implantation,2 ✅ Progressed
+
+469,sunlight,1000,400,T_2,ion_implantation,3 ✅ Progressed
+
+470,sunlight,1000,400,T_2,ion_implantation,4 ✅ Progressed
+
+471,sunlight,1000,400,T_2,ion_implantation,5 ✅ Progressed
+
+472,sunlight,1000,400,T_2,ion_implantation,6 ✅ Progressed
+
+473,sunlight,1000,400,T_2,ion_implantation,7 ✅ Progressed
+
+474,sunlight,1000,400,T_2,ion_implantation,8 ✅ Progressed
+
+475,sunlight,1000,400,T_2,ion_implantation,9 ✅ Progressed
+
+476,sunlight,1000,400,T_2,ion_implantation,10 ✅ Progressed
+
+477,sunlight,1000,400,T_2,ion_implantation,11 ✅ Progressed
+
+478,sunlight,1000,400,T_2,ion_implantation,12 ✅ Progressed
+
+479,sunlight,1000,400,T_2,ion_implantation,13 ✅ Progressed
+
+480,sunlight,1000,400,T_2,ion_implantation,14 ✅ Progressed
+
+481,sunlight,1000,400,T_2,ion_implantation,15 ✅ Progressed
+
+482,sunlight,1000,400,T_2,ion_implantation,16 ✅ Progressed
+
+483,sunlight,1000,400,T_2,ion_implantation,17 ✅ Progressed
+
+484,sunlight,1000,400,T_2,ion_implantation,18 ✅ Progressed
+
+485,sunlight,1000,400,T_2,ion_implantation,19 ✅ Progressed
+
+486,sunlight,1000,400,T_2,ion_implantation,20 ✅ Progressed
+
+487,sunlight,1000,350,T_2,crystal_growth,1 ✅ Progressed
+
+488,sunlight,1000,350,T_2,crystal_growth,2 ✅ Progressed
+
+489,sunlight,1000,350,T_2,crystal_growth,3 ✅ Progressed
+
+490,sunlight,1000,350,T_2,crystal_growth,4 ✅ Progressed
+
+491,sunlight,1000,350,T_2,crystal_growth,5 ✅ Progressed
+
+492,sunlight,1000,350,T_2,crystal_growth,6 ✅ Progressed
+
+493,sunlight,1000,350,T_2,crystal_growth,7 ✅ Progressed
+
+494,sunlight,1000,350,T_2,crystal_growth,8 ✅ Progressed
+
+495,eclipse,750,50,T_2,crystal_growth,9 ✅ Progressed
+
+496,eclipse,500,50,T_2,crystal_growth,10 ✅ Progressed
+
+497,eclipse,250,50,T_2,crystal_growth,11 ✅ Progressed
+
+498,eclipse,0,0,T_2,crystal_growth,12 ✅ Progressed
+
+499,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+500,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+501,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+502,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+503,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+504,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+505,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+506,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+507,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+508,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+509,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+510,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+511,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+512,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+513,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+514,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+515,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+516,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+517,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+518,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+519,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+520,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+521,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+522,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+523,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+524,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+525,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+526,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+527,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+528,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+529,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+530,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+531,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+532,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+533,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+534,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+535,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+536,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+537,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+538,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+539,eclipse,0,0,T_2,crystal_growth,12 ❌ Waiting
+
+540,sunlight,300,350,T_2,crystal_growth,13 ✅ Progressed
+
+541,sunlight,600,350,T_2,crystal_growth,14 ✅ Progressed
+
+542,sunlight,900,350,T_2,crystal_growth,15 ✅ Progressed
+
+543,sunlight,1000,350,T_2,crystal_growth,16 ✅ Progressed
+
+544,sunlight,1000,350,T_2,crystal_growth,17 ✅ Progressed
+
+545,sunlight,1000,350,T_2,crystal_growth,18 ✅ Progressed
+
+546,sunlight,1000,350,T_2,crystal_growth,19 ✅ Progressed
+
+547,sunlight,1000,350,T_2,crystal_growth,20 ✅ Progressed
+
+548,sunlight,1000,350,T_2,crystal_growth,21 ✅ Progressed
+
+549,sunlight,1000,350,T_2,crystal_growth,22 ✅ Progressed
+
+550,sunlight,1000,350,T_2,crystal_growth,23 ✅ Progressed
+
+551,sunlight,1000,350,T_2,crystal_growth,24 ✅ Progressed
+
+552,sunlight,1000,350,T_2,crystal_growth,25 ✅ Progressed
+
+553,sunlight,1000,350,T_2,crystal_growth,26 ✅ Progressed
+
+554,sunlight,1000,350,T_2,crystal_growth,27 ✅ Progressed
+
+555,sunlight,1000,350,T_2,crystal_growth,28 ✅ Progressed
+
+556,sunlight,1000,350,T_2,crystal_growth,29 ✅ Progressed
+
+557,sunlight,1000,350,T_2,crystal_growth,30 ✅ Progressed
+
+558,sunlight,1000,350,T_2,crystal_growth,31 ✅ Progressed
+
+559,sunlight,1000,350,T_2,crystal_growth,32 ✅ Progressed
+
+560,sunlight,1000,350,T_2,crystal_growth,33 ✅ Progressed
+
+561,sunlight,1000,350,T_2,crystal_growth,34 ✅ Progressed
+
+562,sunlight,1000,350,T_2,crystal_growth,35 ✅ Progressed
+
+563,sunlight,1000,350,T_2,crystal_growth,36 ✅ Progressed
+
+564,sunlight,1000,350,T_2,crystal_growth,37 ✅ Progressed
+
+565,sunlight,1000,350,T_2,crystal_growth,38 ✅ Progressed
+
+566,sunlight,1000,350,T_2,crystal_growth,39 ✅ Progressed
+
+567,sunlight,1000,350,T_2,crystal_growth,40 ✅ Progressed
+
+568,sunlight,1000,350,T_2,crystal_growth,41 ✅ Progressed
+
+569,sunlight,1000,350,T_2,crystal_growth,42 ✅ Progressed
+
+570,sunlight,1000,350,T_2,crystal_growth,43 ✅ Progressed
+
+571,sunlight,1000,350,T_2,crystal_growth,44 ✅ Progressed
+
+572,sunlight,1000,350,T_2,crystal_growth,45 ✅ Progressed
+
+573,sunlight,1000,350,T_2,crystal_growth,46 ✅ Progressed
+
+574,sunlight,1000,350,T_2,crystal_growth,47 ✅ Progressed
+
+575,sunlight,1000,350,T_2,crystal_growth,48 ✅ Progressed
+
+576,sunlight,1000,350,T_2,crystal_growth,49 ✅ Progressed
+
+577,sunlight,1000,350,T_2,crystal_growth,50 ✅ Progressed
+
+578,sunlight,1000,350,T_2,crystal_growth,51 ✅ Progressed
+
+579,sunlight,1000,350,T_2,crystal_growth,52 ✅ Progressed
+
+580,sunlight,1000,350,T_2,crystal_growth,53 ✅ Progressed
+
+581,sunlight,1000,350,T_2,crystal_growth,54 ✅ Progressed
+
+582,sunlight,1000,350,T_2,crystal_growth,55 ✅ Progressed
+
+583,sunlight,1000,350,T_2,crystal_growth,56 ✅ Progressed
+
+584,sunlight,1000,350,T_2,crystal_growth,57 ✅ Progressed
+
+585,eclipse,750,50,T_2,crystal_growth,58 ✅ Progressed
+
+586,eclipse,500,50,T_2,crystal_growth,59 ✅ Progressed
+
+587,eclipse,250,50,T_2,crystal_growth,60 ✅ Progressed
+
+588,eclipse,0,0,T_2,crystal_growth,61 ✅ Progressed
+
+589,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+590,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+591,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+592,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+593,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+594,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+595,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+596,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+597,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+598,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+599,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+600,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+601,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+602,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+603,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+604,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+605,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+606,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+607,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+608,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+609,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+610,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+611,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+612,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+613,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+614,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+615,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+616,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+617,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+618,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+619,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+620,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+621,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+622,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+623,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+624,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+625,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+626,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+627,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+628,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+629,eclipse,0,0,T_2,crystal_growth,61 ❌ Waiting
+
+630,sunlight,300,350,T_2,crystal_growth,62 ✅ Progressed
+
+631,sunlight,600,350,T_2,crystal_growth,63 ✅ Progressed
+
+632,sunlight,900,350,T_2,crystal_growth,64 ✅ Progressed
+
+633,sunlight,1000,350,T_2,crystal_growth,65 ✅ Progressed
+
+634,sunlight,1000,350,T_2,crystal_growth,66 ✅ Progressed
+
+635,sunlight,1000,350,T_2,crystal_growth,67 ✅ Progressed
+
+636,sunlight,1000,350,T_2,crystal_growth,68 ✅ Progressed
+
+637,sunlight,1000,350,T_2,crystal_growth,69 ✅ Progressed
+
+638,sunlight,1000,350,T_2,crystal_growth,70 ✅ Progressed
+
+639,sunlight,1000,350,T_2,crystal_growth,71 ✅ Progressed
+
+640,sunlight,1000,350,T_2,crystal_growth,72 ✅ Progressed
+
+641,sunlight,1000,350,T_2,crystal_growth,73 ✅ Progressed
+
+642,sunlight,1000,350,T_2,crystal_growth,74 ✅ Progressed
+
+643,sunlight,1000,350,T_2,crystal_growth,75 ✅ Progressed
+
+644,sunlight,1000,350,T_2,crystal_growth,76 ✅ Progressed
+
+645,sunlight,1000,350,T_2,crystal_growth,77 ✅ Progressed
+
+646,sunlight,1000,350,T_2,crystal_growth,78 ✅ Progressed
+
+647,sunlight,1000,350,T_2,crystal_growth,79 ✅ Progressed
+
+648,sunlight,1000,350,T_2,crystal_growth,80 ✅ Progressed
+
+649,sunlight,1000,350,T_2,crystal_growth,81 ✅ Progressed
+
+650,sunlight,1000,350,T_2,crystal_growth,82 ✅ Progressed
+
+651,sunlight,1000,350,T_2,crystal_growth,83 ✅ Progressed
+
+652,sunlight,1000,350,T_2,crystal_growth,84 ✅ Progressed
+
+653,sunlight,1000,350,T_2,crystal_growth,85 ✅ Progressed
+
+654,sunlight,1000,350,T_2,crystal_growth,86 ✅ Progressed
+
+655,sunlight,1000,350,T_2,crystal_growth,87 ✅ Progressed
+
+656,sunlight,1000,350,T_2,crystal_growth,88 ✅ Progressed
+
+657,sunlight,1000,350,T_2,crystal_growth,89 ✅ Progressed
+
+658,sunlight,1000,350,T_2,crystal_growth,90 ✅ Progressed
+
+659,sunlight,1000,350,T_2,crystal_growth,91 ✅ Progressed
+
+660,sunlight,1000,350,T_2,crystal_growth,92 ✅ Progressed
+
+661,sunlight,1000,350,T_2,crystal_growth,93 ✅ Progressed
+
+662,sunlight,1000,350,T_2,crystal_growth,94 ✅ Progressed
+
+663,sunlight,1000,350,T_2,crystal_growth,95 ✅ Progressed
+
+664,sunlight,1000,350,T_2,crystal_growth,96 ✅ Progressed
+
+665,sunlight,1000,350,T_2,crystal_growth,97 ✅ Progressed
+
+666,sunlight,1000,350,T_2,crystal_growth,98 ✅ Progressed
+
+667,sunlight,1000,350,T_2,crystal_growth,99 ✅ Progressed
+
+668,sunlight,1000,350,T_2,crystal_growth,100 ✅ Progressed
+
+669,sunlight,1000,350,T_2,crystal_growth,101 ✅ Progressed
+
+670,sunlight,1000,350,T_2,crystal_growth,102 ✅ Progressed
+
+671,sunlight,1000,350,T_2,crystal_growth,103 ✅ Progressed
+
+672,sunlight,1000,350,T_2,crystal_growth,104 ✅ Progressed
+
+673,sunlight,1000,350,T_2,crystal_growth,105 ✅ Progressed
+
+674,sunlight,1000,350,T_2,crystal_growth,106 ✅ Progressed
+
+675,eclipse,750,50,T_2,crystal_growth,107 ✅ Progressed
+
+676,eclipse,500,50,T_2,crystal_growth,108 ✅ Progressed
+
+677,eclipse,250,50,T_2,crystal_growth,109 ✅ Progressed
+
+678,eclipse,0,0,T_2,crystal_growth,110 ✅ Progressed
+
+679,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+680,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+681,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+682,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+683,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+684,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+685,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+686,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+687,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+688,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+689,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+690,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+691,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+692,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+693,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+694,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+695,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+696,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+697,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+698,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+699,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+700,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+701,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+702,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+703,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+704,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+705,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+706,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+707,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+708,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+709,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+710,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+711,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+712,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+713,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+714,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+715,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+716,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+717,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+718,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+719,eclipse,0,0,T_2,crystal_growth,110 ❌ Waiting
+
+720,sunlight,300,350,T_2,crystal_growth,111 ✅ Progressed
+
+721,sunlight,600,350,T_2,crystal_growth,112 ✅ Progressed
+
+722,sunlight,900,350,T_2,crystal_growth,113 ✅ Progressed
+
+723,sunlight,1000,350,T_2,crystal_growth,114 ✅ Progressed
+
+724,sunlight,1000,350,T_2,crystal_growth,115 ✅ Progressed
+
+725,sunlight,1000,350,T_2,crystal_growth,116 ✅ Progressed
+
+726,sunlight,1000,350,T_2,crystal_growth,117 ✅ Progressed
+
+727,sunlight,1000,350,T_2,crystal_growth,118 ✅ Progressed
+
+728,sunlight,1000,350,T_2,crystal_growth,119 ✅ Progressed
+
+729,sunlight,1000,350,T_2,crystal_growth,120 ✅ Progressed
+
+730,sunlight,1000,300,T_3,deposition,1 ✅ Progressed
+
+731,sunlight,1000,300,T_3,deposition,2 ✅ Progressed
+
+732,sunlight,1000,300,T_3,deposition,3 ✅ Progressed
+
+733,sunlight,1000,300,T_3,deposition,4 ✅ Progressed
+
+734,sunlight,1000,300,T_3,deposition,5 ✅ Progressed
+
+735,sunlight,1000,300,T_3,deposition,6 ✅ Progressed
+
+736,sunlight,1000,300,T_3,deposition,7 ✅ Progressed
+
+737,sunlight,1000,300,T_3,deposition,8 ✅ Progressed
+
+738,sunlight,1000,300,T_3,deposition,9 ✅ Progressed
+
+739,sunlight,1000,300,T_3,deposition,10 ✅ Progressed
+
+740,sunlight,1000,300,T_3,deposition,11 ✅ Progressed
+
+741,sunlight,1000,300,T_3,deposition,12 ✅ Progressed
+
+742,sunlight,1000,300,T_3,deposition,13 ✅ Progressed
+
+743,sunlight,1000,300,T_3,deposition,14 ✅ Progressed
+
+744,sunlight,1000,300,T_3,deposition,15 ✅ Progressed
+
+745,sunlight,1000,300,T_3,deposition,16 ✅ Progressed
+
+746,sunlight,1000,300,T_3,deposition,17 ✅ Progressed
+
+747,sunlight,1000,300,T_3,deposition,18 ✅ Progressed
+
+748,sunlight,1000,300,T_3,deposition,19 ✅ Progressed
+
+749,sunlight,1000,300,T_3,deposition,20 ✅ Progressed
+
+750,sunlight,1000,300,T_3,deposition,21 ✅ Progressed
+
+751,sunlight,1000,300,T_3,deposition,22 ✅ Progressed
+
+752,sunlight,1000,300,T_3,deposition,23 ✅ Progressed
+
+753,sunlight,1000,300,T_3,deposition,24 ✅ Progressed
+
+754,sunlight,1000,300,T_3,deposition,25 ✅ Progressed
+
+755,sunlight,1000,300,T_3,deposition,26 ✅ Progressed
+
+756,sunlight,1000,300,T_3,deposition,27 ✅ Progressed
+
+757,sunlight,1000,300,T_3,deposition,28 ✅ Progressed
+
+758,sunlight,1000,300,T_3,deposition,29 ✅ Progressed
+
+759,sunlight,1000,300,T_3,deposition,30 ✅ Progressed
+
+760,sunlight,1000,300,T_3,deposition,31 ✅ Progressed
+
+761,sunlight,1000,300,T_3,deposition,32 ✅ Progressed
+
+762,sunlight,1000,300,T_3,deposition,33 ✅ Progressed
+
+763,sunlight,1000,300,T_3,deposition,34 ✅ Progressed
+
+764,sunlight,1000,300,T_3,deposition,35 ✅ Progressed
+
+765,eclipse,700,0,T_3,deposition,36 ✅ Progressed
+
+766,eclipse,400,0,T_3,deposition,37 ✅ Progressed
+
+767,eclipse,100,0,T_3,deposition,38 ✅ Progressed
+
+768,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+769,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+770,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+771,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+772,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+773,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+774,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+775,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+776,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+777,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+778,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+779,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+780,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+781,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+782,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+783,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+784,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+785,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+786,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+787,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+788,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+789,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+790,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+791,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+792,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+793,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+794,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+795,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+796,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+797,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+798,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+799,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+800,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+801,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+802,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+803,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+804,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+805,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+806,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+807,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+808,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+809,eclipse,100,100,T_3,deposition,38 ❌ Waiting
+
+810,sunlight,400,300,T_3,deposition,39 ✅ Progressed
+
+811,sunlight,700,300,T_3,deposition,40 ✅ Progressed
+
+812,sunlight,1000,300,T_3,deposition,41 ✅ Progressed
+
+813,sunlight,1000,300,T_3,deposition,42 ✅ Progressed
+
+814,sunlight,1000,300,T_3,deposition,43 ✅ Progressed
+
+815,sunlight,1000,300,T_3,deposition,44 ✅ Progressed
+
+816,sunlight,1000,300,T_3,deposition,45 ✅ Progressed
+
+817,sunlight,1000,300,T_3,deposition,46 ✅ Progressed
+
+818,sunlight,1000,300,T_3,deposition,47 ✅ Progressed
+
+819,sunlight,1000,300,T_3,deposition,48 ✅ Progressed
+
+820,sunlight,1000,300,T_3,deposition,49 ✅ Progressed
+
+821,sunlight,1000,300,T_3,deposition,50 ✅ Progressed
+
+822,sunlight,1000,300,T_3,deposition,51 ✅ Progressed
+
+823,sunlight,1000,300,T_3,deposition,52 ✅ Progressed
+
+824,sunlight,1000,300,T_3,deposition,53 ✅ Progressed
+
+825,sunlight,1000,300,T_3,deposition,54 ✅ Progressed
+
+826,sunlight,1000,300,T_3,deposition,55 ✅ Progressed
+
+827,sunlight,1000,300,T_3,deposition,56 ✅ Progressed
+
+828,sunlight,1000,300,T_3,deposition,57 ✅ Progressed
+
+829,sunlight,1000,300,T_3,deposition,58 ✅ Progressed
+
+830,sunlight,1000,300,T_3,deposition,59 ✅ Progressed
+
+831,sunlight,1000,300,T_3,deposition,60 ✅ Progressed
+
+832,sunlight,1000,400,T_3,ion_implantation,1 ✅ Progressed
+
+833,sunlight,1000,400,T_3,ion_implantation,2 ✅ Progressed
+
+834,sunlight,1000,400,T_3,ion_implantation,3 ✅ Progressed
+
+835,sunlight,1000,400,T_3,ion_implantation,4 ✅ Progressed
+
+836,sunlight,1000,400,T_3,ion_implantation,5 ✅ Progressed
+
+837,sunlight,1000,400,T_3,ion_implantation,6 ✅ Progressed
+
+838,sunlight,1000,400,T_3,ion_implantation,7 ✅ Progressed
+
+839,sunlight,1000,400,T_3,ion_implantation,8 ✅ Progressed
+
+840,sunlight,1000,400,T_3,ion_implantation,9 ✅ Progressed
+
+841,sunlight,1000,400,T_3,ion_implantation,10 ✅ Progressed
+
+842,sunlight,1000,400,T_3,ion_implantation,11 ✅ Progressed
+
+843,sunlight,1000,400,T_3,ion_implantation,12 ✅ Progressed
+
+844,sunlight,1000,400,T_3,ion_implantation,13 ✅ Progressed
+
+845,sunlight,1000,400,T_3,ion_implantation,14 ✅ Progressed
+
+846,sunlight,1000,400,T_3,ion_implantation,15 ✅ Progressed
+
+847,sunlight,1000,400,T_3,ion_implantation,16 ✅ Progressed
+
+848,sunlight,1000,400,T_3,ion_implantation,17 ✅ Progressed
+
+849,sunlight,1000,400,T_3,ion_implantation,18 ✅ Progressed
+
+850,sunlight,1000,400,T_3,ion_implantation,19 ✅ Progressed
+
+851,sunlight,1000,400,T_3,ion_implantation,20 ✅ Progressed
+
+852,sunlight,1000,350,T_3,crystal_growth,1 ✅ Progressed
+
+853,sunlight,1000,350,T_3,crystal_growth,2 ✅ Progressed
+
+854,sunlight,1000,350,T_3,crystal_growth,3 ✅ Progressed
+
+855,eclipse,750,50,T_3,crystal_growth,4 ✅ Progressed
+
+856,eclipse,500,50,T_3,crystal_growth,5 ✅ Progressed
+
+857,eclipse,250,50,T_3,crystal_growth,6 ✅ Progressed
+
+858,eclipse,0,0,T_3,crystal_growth,7 ✅ Progressed
+
+859,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+860,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+861,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+862,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+863,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+864,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+865,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+866,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+867,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+868,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+869,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+870,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+871,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+872,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+873,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+874,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+875,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+876,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+877,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+878,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+879,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+880,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+881,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+882,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+883,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+884,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+885,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+886,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+887,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+888,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+889,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+890,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+891,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+892,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+893,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+894,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+895,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+896,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+897,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+898,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+899,eclipse,0,0,T_3,crystal_growth,7 ❌ Waiting
+
+900,sunlight,300,350,T_3,crystal_growth,8 ✅ Progressed
+
+901,sunlight,600,350,T_3,crystal_growth,9 ✅ Progressed
+
+902,sunlight,900,350,T_3,crystal_growth,10 ✅ Progressed
+
+903,sunlight,1000,350,T_3,crystal_growth,11 ✅ Progressed
+
+904,sunlight,1000,350,T_3,crystal_growth,12 ✅ Progressed
+
+905,sunlight,1000,350,T_3,crystal_growth,13 ✅ Progressed
+
+906,sunlight,1000,350,T_3,crystal_growth,14 ✅ Progressed
+
+907,sunlight,1000,350,T_3,crystal_growth,15 ✅ Progressed
+
+908,sunlight,1000,350,T_3,crystal_growth,16 ✅ Progressed
+
+909,sunlight,1000,350,T_3,crystal_growth,17 ✅ Progressed
+
+910,sunlight,1000,350,T_3,crystal_growth,18 ✅ Progressed
+
+911,sunlight,1000,350,T_3,crystal_growth,19 ✅ Progressed
+
+912,sunlight,1000,350,T_3,crystal_growth,20 ✅ Progressed
+
+913,sunlight,1000,350,T_3,crystal_growth,21 ✅ Progressed
+
+914,sunlight,1000,350,T_3,crystal_growth,22 ✅ Progressed
+
+915,sunlight,1000,350,T_3,crystal_growth,23 ✅ Progressed
+
+916,sunlight,1000,350,T_3,crystal_growth,24 ✅ Progressed
+
+917,sunlight,1000,350,T_3,crystal_growth,25 ✅ Progressed
+
+918,sunlight,1000,350,T_3,crystal_growth,26 ✅ Progressed
+
+919,sunlight,1000,350,T_3,crystal_growth,27 ✅ Progressed
+
+920,sunlight,1000,350,T_3,crystal_growth,28 ✅ Progressed
+
+921,sunlight,1000,350,T_3,crystal_growth,29 ✅ Progressed
+
+922,sunlight,1000,350,T_3,crystal_growth,30 ✅ Progressed
+
+923,sunlight,1000,350,T_3,crystal_growth,31 ✅ Progressed
+
+924,sunlight,1000,350,T_3,crystal_growth,32 ✅ Progressed
+
+925,sunlight,1000,350,T_3,crystal_growth,33 ✅ Progressed
+
+926,sunlight,1000,350,T_3,crystal_growth,34 ✅ Progressed
+
+927,sunlight,1000,350,T_3,crystal_growth,35 ✅ Progressed
+
+928,sunlight,1000,350,T_3,crystal_growth,36 ✅ Progressed
+
+929,sunlight,1000,350,T_3,crystal_growth,37 ✅ Progressed
+
+930,sunlight,1000,350,T_3,crystal_growth,38 ✅ Progressed
+
+931,sunlight,1000,350,T_3,crystal_growth,39 ✅ Progressed
+
+932,sunlight,1000,350,T_3,crystal_growth,40 ✅ Progressed
+
+933,sunlight,1000,350,T_3,crystal_growth,41 ✅ Progressed
+
+934,sunlight,1000,350,T_3,crystal_growth,42 ✅ Progressed
+
+935,sunlight,1000,350,T_3,crystal_growth,43 ✅ Progressed
+
+936,sunlight,1000,350,T_3,crystal_growth,44 ✅ Progressed
+
+937,sunlight,1000,350,T_3,crystal_growth,45 ✅ Progressed
+
+938,sunlight,1000,350,T_3,crystal_growth,46 ✅ Progressed
+
+939,sunlight,1000,350,T_3,crystal_growth,47 ✅ Progressed
+
+940,sunlight,1000,350,T_3,crystal_growth,48 ✅ Progressed
+
+941,sunlight,1000,350,T_3,crystal_growth,49 ✅ Progressed
+
+942,sunlight,1000,350,T_3,crystal_growth,50 ✅ Progressed
+
+943,sunlight,1000,350,T_3,crystal_growth,51 ✅ Progressed
+
+944,sunlight,1000,350,T_3,crystal_growth,52 ✅ Progressed
+
+945,eclipse,750,50,T_3,crystal_growth,53 ✅ Progressed
+
+946,eclipse,500,50,T_3,crystal_growth,54 ✅ Progressed
+
+947,eclipse,250,50,T_3,crystal_growth,55 ✅ Progressed
+
+948,eclipse,0,0,T_3,crystal_growth,56 ✅ Progressed
+
+949,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+950,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+951,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+952,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+953,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+954,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+955,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+956,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+957,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+958,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+959,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+960,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+961,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+962,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+963,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+964,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+965,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+966,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+967,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+968,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+969,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+970,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+971,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+972,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+973,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+974,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+975,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+976,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+977,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+978,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+979,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+980,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+981,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+982,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+983,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+984,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+985,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+986,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+987,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+988,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+989,eclipse,0,0,T_3,crystal_growth,56 ❌ Waiting
+
+990,sunlight,300,350,T_3,crystal_growth,57 ✅ Progressed
+
+991,sunlight,600,350,T_3,crystal_growth,58 ✅ Progressed
+
+992,sunlight,900,350,T_3,crystal_growth,59 ✅ Progressed
+
+993,sunlight,1000,350,T_3,crystal_growth,60 ✅ Progressed
+
+994,sunlight,1000,350,T_3,crystal_growth,61 ✅ Progressed
+
+995,sunlight,1000,350,T_3,crystal_growth,62 ✅ Progressed
+
+996,sunlight,1000,350,T_3,crystal_growth,63 ✅ Progressed
+
+997,sunlight,1000,350,T_3,crystal_growth,64 ✅ Progressed
+
+998,sunlight,1000,350,T_3,crystal_growth,65 ✅ Progressed
+
+999,sunlight,1000,350,T_3,crystal_growth,66 ✅ Progressed
+
+1000,sunlight,1000,350,T_3,crystal_growth,67 ✅ Progressed
+
+1001,sunlight,1000,350,T_3,crystal_growth,68 ✅ Progressed
+
+1002,sunlight,1000,350,T_3,crystal_growth,69 ✅ Progressed
+
+1003,sunlight,1000,350,T_3,crystal_growth,70 ✅ Progressed
+
+1004,sunlight,1000,350,T_3,crystal_growth,71 ✅ Progressed
+
+1005,sunlight,1000,350,T_3,crystal_growth,72 ✅ Progressed
+
+1006,sunlight,1000,350,T_3,crystal_growth,73 ✅ Progressed
+
+1007,sunlight,1000,350,T_3,crystal_growth,74 ✅ Progressed
+
+1008,sunlight,1000,350,T_3,crystal_growth,75 ✅ Progressed
+
+1009,sunlight,1000,350,T_3,crystal_growth,76 ✅ Progressed
+
+1010,sunlight,1000,350,T_3,crystal_growth,77 ✅ Progressed
+
+1011,sunlight,1000,350,T_3,crystal_growth,78 ✅ Progressed
+
+1012,sunlight,1000,350,T_3,crystal_growth,79 ✅ Progressed
+
+1013,sunlight,1000,350,T_3,crystal_growth,80 ✅ Progressed
+
+1014,sunlight,1000,350,T_3,crystal_growth,81 ✅ Progressed
+
+1015,sunlight,1000,350,T_3,crystal_growth,82 ✅ Progressed
+
+1016,sunlight,1000,350,T_3,crystal_growth,83 ✅ Progressed
+
+1017,sunlight,1000,350,T_3,crystal_growth,84 ✅ Progressed
+
+1018,sunlight,1000,350,T_3,crystal_growth,85 ✅ Progressed
+
+1019,sunlight,1000,350,T_3,crystal_growth,86 ✅ Progressed
+
+1020,sunlight,1000,350,T_3,crystal_growth,87 ✅ Progressed
+
+1021,sunlight,1000,350,T_3,crystal_growth,88 ✅ Progressed
+
+1022,sunlight,1000,350,T_3,crystal_growth,89 ✅ Progressed
+
+1023,sunlight,1000,350,T_3,crystal_growth,90 ✅ Progressed
+
+1024,sunlight,1000,350,T_3,crystal_growth,91 ✅ Progressed
+
+1025,sunlight,1000,350,T_3,crystal_growth,92 ✅ Progressed
+
+1026,sunlight,1000,350,T_3,crystal_growth,93 ✅ Progressed
+
+1027,sunlight,1000,350,T_3,crystal_growth,94 ✅ Progressed
+
+1028,sunlight,1000,350,T_3,crystal_growth,95 ✅ Progressed
+
+1029,sunlight,1000,350,T_3,crystal_growth,96 ✅ Progressed
+
+1030,sunlight,1000,350,T_3,crystal_growth,97 ✅ Progressed
+
+1031,sunlight,1000,350,T_3,crystal_growth,98 ✅ Progressed
+
+1032,sunlight,1000,350,T_3,crystal_growth,99 ✅ Progressed
+
+1033,sunlight,1000,350,T_3,crystal_growth,100 ✅ Progressed
+
+1034,sunlight,1000,350,T_3,crystal_growth,101 ✅ Progressed
+
+1035,eclipse,750,50,T_3,crystal_growth,102 ✅ Progressed
+
+1036,eclipse,500,50,T_3,crystal_growth,103 ✅ Progressed
+
+1037,eclipse,250,50,T_3,crystal_growth,104 ✅ Progressed
+
+1038,eclipse,0,0,T_3,crystal_growth,105 ✅ Progressed
+
+1039,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1040,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1041,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1042,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1043,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1044,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1045,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1046,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1047,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1048,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1049,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1050,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1051,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1052,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1053,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1054,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1055,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1056,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1057,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1058,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1059,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1060,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1061,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1062,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1063,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1064,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1065,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1066,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1067,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1068,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1069,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1070,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1071,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1072,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1073,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1074,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1075,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1076,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1077,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1078,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1079,eclipse,0,0,T_3,crystal_growth,105 ❌ Waiting
+
+1080,sunlight,300,350,T_3,crystal_growth,106 ✅ Progressed
+
+1081,sunlight,600,350,T_3,crystal_growth,107 ✅ Progressed
+
+1082,sunlight,900,350,T_3,crystal_growth,108 ✅ Progressed
+
+1083,sunlight,1000,350,T_3,crystal_growth,109 ✅ Progressed
+
+1084,sunlight,1000,350,T_3,crystal_growth,110 ✅ Progressed
+
+1085,sunlight,1000,350,T_3,crystal_growth,111 ✅ Progressed
+
+1086,sunlight,1000,350,T_3,crystal_growth,112 ✅ Progressed
+
+1087,sunlight,1000,350,T_3,crystal_growth,113 ✅ Progressed
+
+1088,sunlight,1000,350,T_3,crystal_growth,114 ✅ Progressed
+
+1089,sunlight,1000,350,T_3,crystal_growth,115 ✅ Progressed
+
+1090,sunlight,1000,350,T_3,crystal_growth,116 ✅ Progressed
+
+1091,sunlight,1000,350,T_3,crystal_growth,117 ✅ Progressed
+
+1092,sunlight,1000,350,T_3,crystal_growth,118 ✅ Progressed
+
+1093,sunlight,1000,350,T_3,crystal_growth,119 ✅ Progressed
+
+1094,sunlight,1000,350,T_3,crystal_growth,120 ✅ Progressed
+
+1095,sunlight,1000,300,T_4,deposition,1 ✅ Progressed
+
+1096,sunlight,1000,300,T_4,deposition,2 ✅ Progressed
+
+1097,sunlight,1000,300,T_4,deposition,3 ✅ Progressed
+
+1098,sunlight,1000,300,T_4,deposition,4 ✅ Progressed
+
+1099,sunlight,1000,300,T_4,deposition,5 ✅ Progressed
+
+1100,sunlight,1000,300,T_4,deposition,6 ✅ Progressed
+
+1101,sunlight,1000,300,T_4,deposition,7 ✅ Progressed
+
+1102,sunlight,1000,300,T_4,deposition,8 ✅ Progressed
+
+1103,sunlight,1000,300,T_4,deposition,9 ✅ Progressed
+
+1104,sunlight,1000,300,T_4,deposition,10 ✅ Progressed
+
+1105,sunlight,1000,300,T_4,deposition,11 ✅ Progressed
+
+1106,sunlight,1000,300,T_4,deposition,12 ✅ Progressed
+
+1107,sunlight,1000,300,T_4,deposition,13 ✅ Progressed
+
+1108,sunlight,1000,300,T_4,deposition,14 ✅ Progressed
+
+1109,sunlight,1000,300,T_4,deposition,15 ✅ Progressed
+
+1110,sunlight,1000,300,T_4,deposition,16 ✅ Progressed
+
+1111,sunlight,1000,300,T_4,deposition,17 ✅ Progressed
+
+1112,sunlight,1000,300,T_4,deposition,18 ✅ Progressed
+
+1113,sunlight,1000,300,T_4,deposition,19 ✅ Progressed
+
+1114,sunlight,1000,300,T_4,deposition,20 ✅ Progressed
+
+1115,sunlight,1000,300,T_4,deposition,21 ✅ Progressed
+
+1116,sunlight,1000,300,T_4,deposition,22 ✅ Progressed
+
+1117,sunlight,1000,300,T_4,deposition,23 ✅ Progressed
+
+1118,sunlight,1000,300,T_4,deposition,24 ✅ Progressed
+
+1119,sunlight,1000,300,T_4,deposition,25 ✅ Progressed
+
+1120,sunlight,1000,300,T_4,deposition,26 ✅ Progressed
+
+1121,sunlight,1000,300,T_4,deposition,27 ✅ Progressed
+
+1122,sunlight,1000,300,T_4,deposition,28 ✅ Progressed
+
+1123,sunlight,1000,300,T_4,deposition,29 ✅ Progressed
+
+1124,sunlight,1000,300,T_4,deposition,30 ✅ Progressed
+
+1125,eclipse,700,0,T_4,deposition,31 ✅ Progressed
+
+1126,eclipse,400,0,T_4,deposition,32 ✅ Progressed
+
+1127,eclipse,100,0,T_4,deposition,33 ✅ Progressed
+
+1128,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1129,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1130,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1131,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1132,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1133,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1134,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1135,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1136,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1137,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1138,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1139,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1140,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1141,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1142,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1143,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1144,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1145,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1146,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1147,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1148,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1149,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1150,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1151,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1152,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1153,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1154,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1155,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1156,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1157,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1158,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1159,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1160,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1161,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1162,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1163,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1164,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1165,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1166,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1167,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1168,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1169,eclipse,100,100,T_4,deposition,33 ❌ Waiting
+
+1170,sunlight,400,300,T_4,deposition,34 ✅ Progressed
+
+1171,sunlight,700,300,T_4,deposition,35 ✅ Progressed
+
+1172,sunlight,1000,300,T_4,deposition,36 ✅ Progressed
+
+1173,sunlight,1000,300,T_4,deposition,37 ✅ Progressed
+
+1174,sunlight,1000,300,T_4,deposition,38 ✅ Progressed
+
+1175,sunlight,1000,300,T_4,deposition,39 ✅ Progressed
+
+1176,sunlight,1000,300,T_4,deposition,40 ✅ Progressed
+
+1177,sunlight,1000,300,T_4,deposition,41 ✅ Progressed
+
+1178,sunlight,1000,300,T_4,deposition,42 ✅ Progressed
+
+1179,sunlight,1000,300,T_4,deposition,43 ✅ Progressed
+
+1180,sunlight,1000,300,T_4,deposition,44 ✅ Progressed
+
+1181,sunlight,1000,300,T_4,deposition,45 ✅ Progressed
+
+1182,sunlight,1000,300,T_4,deposition,46 ✅ Progressed
+
+1183,sunlight,1000,300,T_4,deposition,47 ✅ Progressed
+
+1184,sunlight,1000,300,T_4,deposition,48 ✅ Progressed
+
+1185,sunlight,1000,300,T_4,deposition,49 ✅ Progressed
+
+1186,sunlight,1000,300,T_4,deposition,50 ✅ Progressed
+
+1187,sunlight,1000,300,T_4,deposition,51 ✅ Progressed
+
+1188,sunlight,1000,300,T_4,deposition,52 ✅ Progressed
+
+1189,sunlight,1000,300,T_4,deposition,53 ✅ Progressed
+
+1190,sunlight,1000,300,T_4,deposition,54 ✅ Progressed
+
+1191,sunlight,1000,300,T_4,deposition,55 ✅ Progressed
+
+1192,sunlight,1000,300,T_4,deposition,56 ✅ Progressed
+
+1193,sunlight,1000,300,T_4,deposition,57 ✅ Progressed
+
+1194,sunlight,1000,300,T_4,deposition,58 ✅ Progressed
+
+1195,sunlight,1000,300,T_4,deposition,59 ✅ Progressed
+
+1196,sunlight,1000,300,T_4,deposition,60 ✅ Progressed
+
+1197,sunlight,1000,400,T_4,ion_implantation,1 ✅ Progressed
+
+1198,sunlight,1000,400,T_4,ion_implantation,2 ✅ Progressed
+
+1199,sunlight,1000,400,T_4,ion_implantation,3 ✅ Progressed
+
+1200,sunlight,1000,400,T_4,ion_implantation,4 ✅ Progressed
+
+1201,sunlight,1000,400,T_4,ion_implantation,5 ✅ Progressed
+
+1202,sunlight,1000,400,T_4,ion_implantation,6 ✅ Progressed
+
+1203,sunlight,1000,400,T_4,ion_implantation,7 ✅ Progressed
+
+1204,sunlight,1000,400,T_4,ion_implantation,8 ✅ Progressed
+
+1205,sunlight,1000,400,T_4,ion_implantation,9 ✅ Progressed
+
+1206,sunlight,1000,400,T_4,ion_implantation,10 ✅ Progressed
+
+1207,sunlight,1000,400,T_4,ion_implantation,11 ✅ Progressed
+
+1208,sunlight,1000,400,T_4,ion_implantation,12 ✅ Progressed
+
+1209,sunlight,1000,400,T_4,ion_implantation,13 ✅ Progressed
+
+1210,sunlight,1000,400,T_4,ion_implantation,14 ✅ Progressed
+
+1211,sunlight,1000,400,T_4,ion_implantation,15 ✅ Progressed
+
+1212,sunlight,1000,400,T_4,ion_implantation,16 ✅ Progressed
+
+1213,sunlight,1000,400,T_4,ion_implantation,17 ✅ Progressed
+
+1214,sunlight,1000,400,T_4,ion_implantation,18 ✅ Progressed
+
+1215,eclipse,800,100,T_4,ion_implantation,19 ✅ Progressed
+
+1216,eclipse,600,100,T_4,ion_implantation,20 ✅ Progressed
+
+1217,eclipse,350,50,T_4,crystal_growth,1 ✅ Progressed
+
+1218,eclipse,100,50,T_4,crystal_growth,2 ✅ Progressed
+
+1219,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1220,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1221,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1222,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1223,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1224,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1225,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1226,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1227,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1228,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1229,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1230,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1231,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1232,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1233,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1234,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1235,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1236,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1237,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1238,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1239,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1240,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1241,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1242,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1243,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1244,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1245,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1246,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1247,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1248,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1249,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1250,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1251,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1252,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1253,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1254,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1255,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1256,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1257,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1258,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1259,eclipse,100,100,T_4,crystal_growth,2 ❌ Waiting
+
+1260,sunlight,400,350,T_4,crystal_growth,3 ✅ Progressed
+
+1261,sunlight,700,350,T_4,crystal_growth,4 ✅ Progressed
+
+1262,sunlight,1000,350,T_4,crystal_growth,5 ✅ Progressed
+
+1263,sunlight,1000,350,T_4,crystal_growth,6 ✅ Progressed
+
+1264,sunlight,1000,350,T_4,crystal_growth,7 ✅ Progressed
+
+1265,sunlight,1000,350,T_4,crystal_growth,8 ✅ Progressed
+
+1266,sunlight,1000,350,T_4,crystal_growth,9 ✅ Progressed
+
+1267,sunlight,1000,350,T_4,crystal_growth,10 ✅ Progressed
+
+1268,sunlight,1000,350,T_4,crystal_growth,11 ✅ Progressed
+
+1269,sunlight,1000,350,T_4,crystal_growth,12 ✅ Progressed
+
+1270,sunlight,1000,350,T_4,crystal_growth,13 ✅ Progressed
+
+1271,sunlight,1000,350,T_4,crystal_growth,14 ✅ Progressed
+
+1272,sunlight,1000,350,T_4,crystal_growth,15 ✅ Progressed
+
+1273,sunlight,1000,350,T_4,crystal_growth,16 ✅ Progressed
+
+1274,sunlight,1000,350,T_4,crystal_growth,17 ✅ Progressed
+
+1275,sunlight,1000,350,T_4,crystal_growth,18 ✅ Progressed
+
+1276,sunlight,1000,350,T_4,crystal_growth,19 ✅ Progressed
+
+1277,sunlight,1000,350,T_4,crystal_growth,20 ✅ Progressed
+
+1278,sunlight,1000,350,T_4,crystal_growth,21 ✅ Progressed
+
+1279,sunlight,1000,350,T_4,crystal_growth,22 ✅ Progressed
+
+1280,sunlight,1000,350,T_4,crystal_growth,23 ✅ Progressed
+
+1281,sunlight,1000,350,T_4,crystal_growth,24 ✅ Progressed
+
+1282,sunlight,1000,350,T_4,crystal_growth,25 ✅ Progressed
+
+1283,sunlight,1000,350,T_4,crystal_growth,26 ✅ Progressed
+
+1284,sunlight,1000,350,T_4,crystal_growth,27 ✅ Progressed
+
+1285,sunlight,1000,350,T_4,crystal_growth,28 ✅ Progressed
+
+1286,sunlight,1000,350,T_4,crystal_growth,29 ✅ Progressed
+
+1287,sunlight,1000,350,T_4,crystal_growth,30 ✅ Progressed
+
+1288,sunlight,1000,350,T_4,crystal_growth,31 ✅ Progressed
+
+1289,sunlight,1000,350,T_4,crystal_growth,32 ✅ Progressed
+
+1290,sunlight,1000,350,T_4,crystal_growth,33 ✅ Progressed
+
+1291,sunlight,1000,350,T_4,crystal_growth,34 ✅ Progressed
+
+1292,sunlight,1000,350,T_4,crystal_growth,35 ✅ Progressed
+
+1293,sunlight,1000,350,T_4,crystal_growth,36 ✅ Progressed
+
+1294,sunlight,1000,350,T_4,crystal_growth,37 ✅ Progressed
+
+1295,sunlight,1000,350,T_4,crystal_growth,38 ✅ Progressed
+
+1296,sunlight,1000,350,T_4,crystal_growth,39 ✅ Progressed
+
+1297,sunlight,1000,350,T_4,crystal_growth,40 ✅ Progressed
+
+1298,sunlight,1000,350,T_4,crystal_growth,41 ✅ Progressed
+
+1299,sunlight,1000,350,T_4,crystal_growth,42 ✅ Progressed
+
+1300,sunlight,1000,350,T_4,crystal_growth,43 ✅ Progressed
+
+1301,sunlight,1000,350,T_4,crystal_growth,44 ✅ Progressed
+
+1302,sunlight,1000,350,T_4,crystal_growth,45 ✅ Progressed
+
+1303,sunlight,1000,350,T_4,crystal_growth,46 ✅ Progressed
+
+1304,sunlight,1000,350,T_4,crystal_growth,47 ✅ Progressed
+
+1305,eclipse,750,50,T_4,crystal_growth,48 ✅ Progressed
+
+1306,eclipse,500,50,T_4,crystal_growth,49 ✅ Progressed
+
+1307,eclipse,250,50,T_4,crystal_growth,50 ✅ Progressed
+
+1308,eclipse,0,0,T_4,crystal_growth,51 ✅ Progressed
+
+1309,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1310,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1311,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1312,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1313,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1314,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1315,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1316,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1317,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1318,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1319,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1320,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1321,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1322,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1323,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1324,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1325,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1326,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1327,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1328,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1329,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1330,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1331,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1332,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1333,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1334,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1335,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1336,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1337,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1338,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1339,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1340,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1341,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1342,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1343,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1344,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1345,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1346,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1347,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1348,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1349,eclipse,0,0,T_4,crystal_growth,51 ❌ Waiting
+
+1350,sunlight,300,350,T_4,crystal_growth,52 ✅ Progressed
+
+1351,sunlight,600,350,T_4,crystal_growth,53 ✅ Progressed
+
+1352,sunlight,900,350,T_4,crystal_growth,54 ✅ Progressed
+
+1353,sunlight,1000,350,T_4,crystal_growth,55 ✅ Progressed
+
+1354,sunlight,1000,350,T_4,crystal_growth,56 ✅ Progressed
+
+1355,sunlight,1000,350,T_4,crystal_growth,57 ✅ Progressed
+
+1356,sunlight,1000,350,T_4,crystal_growth,58 ✅ Progressed
+
+1357,sunlight,1000,350,T_4,crystal_growth,59 ✅ Progressed
+
+1358,sunlight,1000,350,T_4,crystal_growth,60 ✅ Progressed
+
+1359,sunlight,1000,350,T_4,crystal_growth,61 ✅ Progressed
+
+1360,sunlight,1000,350,T_4,crystal_growth,62 ✅ Progressed
+
+1361,sunlight,1000,350,T_4,crystal_growth,63 ✅ Progressed
+
+1362,sunlight,1000,350,T_4,crystal_growth,64 ✅ Progressed
+
+1363,sunlight,1000,350,T_4,crystal_growth,65 ✅ Progressed
+
+1364,sunlight,1000,350,T_4,crystal_growth,66 ✅ Progressed
+
+1365,sunlight,1000,350,T_4,crystal_growth,67 ✅ Progressed
+
+1366,sunlight,1000,350,T_4,crystal_growth,68 ✅ Progressed
+
+1367,sunlight,1000,350,T_4,crystal_growth,69 ✅ Progressed
+
+1368,sunlight,1000,350,T_4,crystal_growth,70 ✅ Progressed
+
+1369,sunlight,1000,350,T_4,crystal_growth,71 ✅ Progressed
+
+1370,sunlight,1000,350,T_4,crystal_growth,72 ✅ Progressed
+
+1371,sunlight,1000,350,T_4,crystal_growth,73 ✅ Progressed
+
+1372,sunlight,1000,350,T_4,crystal_growth,74 ✅ Progressed
+
+1373,sunlight,1000,350,T_4,crystal_growth,75 ✅ Progressed
+
+1374,sunlight,1000,350,T_4,crystal_growth,76 ✅ Progressed
+
+1375,sunlight,1000,350,T_4,crystal_growth,77 ✅ Progressed
+
+1376,sunlight,1000,350,T_4,crystal_growth,78 ✅ Progressed
+
+1377,sunlight,1000,350,T_4,crystal_growth,79 ✅ Progressed
+
+1378,sunlight,1000,350,T_4,crystal_growth,80 ✅ Progressed
+
+1379,sunlight,1000,350,T_4,crystal_growth,81 ✅ Progressed
+
+1380,sunlight,1000,350,T_4,crystal_growth,82 ✅ Progressed
+
+1381,sunlight,1000,350,T_4,crystal_growth,83 ✅ Progressed
+
+1382,sunlight,1000,350,T_4,crystal_growth,84 ✅ Progressed
+
+1383,sunlight,1000,350,T_4,crystal_growth,85 ✅ Progressed
+
+1384,sunlight,1000,350,T_4,crystal_growth,86 ✅ Progressed
+
+1385,sunlight,1000,350,T_4,crystal_growth,87 ✅ Progressed
+
+1386,sunlight,1000,350,T_4,crystal_growth,88 ✅ Progressed
+
+1387,sunlight,1000,350,T_4,crystal_growth,89 ✅ Progressed
+
+1388,sunlight,1000,350,T_4,crystal_growth,90 ✅ Progressed
+
+1389,sunlight,1000,350,T_4,crystal_growth,91 ✅ Progressed
+
+1390,sunlight,1000,350,T_4,crystal_growth,92 ✅ Progressed
+
+1391,sunlight,1000,350,T_4,crystal_growth,93 ✅ Progressed
+
+1392,sunlight,1000,350,T_4,crystal_growth,94 ✅ Progressed
+
+1393,sunlight,1000,350,T_4,crystal_growth,95 ✅ Progressed
+
+1394,sunlight,1000,350,T_4,crystal_growth,96 ✅ Progressed
+
+1395,eclipse,750,50,T_4,crystal_growth,97 ✅ Progressed
+
+1396,eclipse,500,50,T_4,crystal_growth,98 ✅ Progressed
+
+1397,eclipse,250,50,T_4,crystal_growth,99 ✅ Progressed
+
+1398,eclipse,0,0,T_4,crystal_growth,100 ✅ Progressed
+
+1399,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1400,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1401,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1402,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1403,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1404,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1405,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1406,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1407,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1408,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1409,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1410,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1411,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1412,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1413,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1414,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1415,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1416,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1417,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1418,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1419,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1420,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1421,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1422,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1423,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1424,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1425,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1426,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1427,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1428,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1429,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1430,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1431,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1432,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1433,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1434,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1435,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1436,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1437,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1438,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
+1439,eclipse,0,0,T_4,crystal_growth,100 ❌ Waiting
+
