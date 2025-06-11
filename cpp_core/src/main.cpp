@@ -25,6 +25,18 @@ std::vector<Task> loadTasksFromFile(const std::string& filename) {
         task.phase[1].requiredTime = 20;   // Ion Implantation
         task.phase[2].requiredTime = 120;  // Crystal Growth
 
+        // all initialized to false 
+        task.phase[0].wasInterrupted = false;
+        task.phase[1].wasInterrupted = false;
+        task.phase[2].wasInterrupted = false;
+
+        task.phase[0].defectChance = 0.01;
+        task.phase[1].defectChance = 0.001;
+        task.phase[2].defectChance = 0.025;
+
+        task.phase[0].defective = false;
+        task.phase[1].defective = false;
+        task.phase[2].defective = false;
         tasksVector.push_back(task); // back inside vector
     }
 
@@ -37,7 +49,7 @@ const int SIM_DURATION = 1440;  // 24 hours in minutes
 
 int main() {
     // Initialize power module
-    PowerModule Power(1000, 300, 0);  // 1000mWh battery capacity, 300W sunlight, 0W eclipse
+    PowerModule Power(10000, 300, 0);  // 1000mWh battery capacity, 300W sunlight, 0W eclipse
     // can only draw 300 watts per min from the battery at once
 
     // Load wafer tasks
@@ -54,21 +66,21 @@ int main() {
     }
 /*
 Task ID: T_1
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy: 0
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy: 0
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy: 0
+  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0
+  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0
+  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0
 Task ID: T_2
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy: 0
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy: 0
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy: 0
+  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0
+  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0
+  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0
 Task ID: T_3
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy: 0
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy: 0
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy: 0
+  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0
+  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0
+  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0
 Task ID: T_4
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy: 0
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy: 0
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy: 0
+  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0
+  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0
+  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0
 */
 
 
@@ -76,7 +88,7 @@ Task ID: T_4
     int t = 0;
 
     // open the output file to better view the logs
-    std::ofstream outputFile("power_module_testing1.csv", std::ios::out);
+    std::ofstream outputFile("power_module_testing2.csv", std::ios::out);
     if (!outputFile.is_open()) {
         std::cerr << "Error opening file!" << std::endl;
         return 1; 
@@ -100,6 +112,7 @@ Task ID: T_4
         if (currentTask.currentStage == 0) {
             requiredPower = 300; // from minutes [45-60) the available power is 0 since the deposition phase is using exactly the same power 
             phaseName = "deposition";
+            //  DepositionModule::runOneMinute(currentTask, PowerModule, logger);
         } else if (currentTask.currentStage == 1) {
             requiredPower = 200;
             phaseName = "ion_implantation";
@@ -123,18 +136,18 @@ Task ID: T_4
         }
 
         // Print simulation status
-        std::cout << "Minute " << t
-                  << " | Orbit: " << orbitPhase
-                  << " | Battery: " << Power.getBatteryLevel()
-                  << " | Available: " << Power.getAvailablePower()
-                  << " | Task: " << currentTask.id
-                  << " | Phase: " << phaseName
-                  << " | Time Done: " << phase.elapsedTime
-                  << " / " << phase.requiredTime
-                  << (progressed ? " ✅ Progressed\n" : " ❌ Waiting\n");
+        // std::cout << "Minute " << t
+        //           << " | Orbit: " << orbitPhase
+        //           << " | Battery: " << Power.getBatteryLevel()
+        //           << " | Available: " << Power.getAvailablePower()
+        //           << " | Task: " << currentTask.id
+        //           << " | Phase: " << phaseName
+        //           << " | Time Done: " << phase.elapsedTime
+        //           << " / " << phase.requiredTime
+        //           << (progressed ? " ✅ Progressed\n" : " ❌ Waiting\n");
         
         outputFile << t << "," << orbitPhase << "," << Power.getBatteryLevel() << "," << Power.getAvailablePower() << "," << currentTask.id
-        << "," << phaseName << "," << phase.elapsedTime << (progressed ? " ✅ Progressed\n" : " ❌ Waiting\n") << std::endl;
+        << "," << phaseName << "," << phase.elapsedTime << (progressed ? " ✅ Progressed" : " ❌ Waiting") << std::endl;
 
         // If task is complete, move to next
         if (currentTask.isComplete()) {

@@ -3,3 +3,10 @@
 
 
 // this file is supposed to be the factory module class 
+#include "DepositionModule.hpp"
+#include <algorithm>  
+
+DepositionModule::DepositionModule() {
+    elapsed = 0;
+    activeTask = nullptr;
+}

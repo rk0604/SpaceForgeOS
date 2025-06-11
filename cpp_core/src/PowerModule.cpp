@@ -52,6 +52,49 @@ void PowerModule::consumePower(int watts) {
 int PowerModule::getAvailablePower() const { return budgetThisMinute_; }
 int PowerModule::getBatteryLevel()   const { return battery_; }
 
+/*
+ In the log above, you can see what happens when we cross from sunlight into eclipse:
+
+ Minute 44 (sunlight):
+   - producedThisMinute_ = 300 W
+   - battery_ was 1000 mWh, so batteryDrawPotential = min(300,1000) = 300 W
+   - budgetThisMinute_ = 300 (solar) + 300 (battery) = 600 W
+   - consumePower(300) uses 300 W solar first, then none from battery
+   - Battery remains 1000 mWh, Available drops to 300 W, deposition ⟶ 45/60 ✅
+
+ Minute 45 (first minute of eclipse):
+   - producedThisMinute_ = 0 W
+   - battery_ is still 1000 mWh, so batteryDrawPotential = min(300,1000) = 300 W
+   - budgetThisMinute_ = 0 (solar) + 300 (battery) = 300 W
+   - consumePower(300) uses 0 W solar, then 300 W from battery
+   - Battery decreases 1000–300 = 700 mWh, Available drops to 0 W, deposition ⟶ 46/60 ✅
+
+ Minute 46 (eclipse):
+   - producedThisMinute_ = 0 W
+   - battery_ = 700 mWh → batteryDrawPotential = 300 W
+   - budgetThisMinute_ = 0 + 300 = 300 W
+   - consumePower(300) → battery_ = 700–300 = 400 mWh, Available = 0 W, deposition ⟶ 47/60 ✅
+
+ Minute 47 (eclipse):
+   - producedThisMinute_ = 0 W
+   - battery_ = 400 mWh → batteryDrawPotential = 300 W
+   - budgetThisMinute_ = 0 + 300 = 300 W
+   - consumePower(300) → battery_ = 400–300 = 100 mWh, Available = 0 W, deposition ⟶ 48/60 ✅
+
+ Minute 48 (eclipse):
+   - producedThisMinute_ = 0 W
+   - battery_ = 100 mWh → batteryDrawPotential = 100 W
+   - budgetThisMinute_ = 0 + 100 = 100 W
+   - Now 100 W < 300 W required → cannot consumePower(300)
+   - deposition stalls (“Waiting”), since battery-only budget is too small
+
+ In short:
+   • You get three full minutes of 300 W battery draw in eclipse (battery: 1000→700→400→100), 
+     so deposition can run from minute 45 through 47.
+   • On the fourth eclipse minute, only 100 W remains in battery → budgetThisMinute_ = 100 W,
+     which is insufficient for the 300 W deposition load, so the task waits.
+*/
+
 
 /*
 PowerModule simulates a satellite’s energy system with two sources:
@@ -87,3 +130,6 @@ This design ensures:
   tasks draw solely from battery (up to the draw cap), and the battery
   depletes accordingly. During sunlight, battery recharges up to maxBattery_.
 */
+
+
+
