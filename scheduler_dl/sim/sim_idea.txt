@@ -41,3 +41,24 @@ task_throughput_counter
 # Cumulative number of completed task_ids (i.e., full wafer jobs). Used as reward for throughput optimization.
 
 # Tasks simulated: deposition, ion implantation, and crystal growth — representing core energy-intensive processes in orbital semiconductor manufacturing.
+
+
+**Task Vector in Main.cpp**:
+/*
+Task ID: T_1
+  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.01 | Defective: No
+  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.001 | Defective: No
+  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.025 | Defective: No
+Task ID: T_2
+  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.01 | Defective: No
+  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.001 | Defective: No
+  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.025 | Defective: No
+Task ID: T_3
+  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.01 | Defective: No
+  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.001 | Defective: No
+  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.025 | Defective: No
+Task ID: T_4
+  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.01 | Defective: No
+  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.001 | Defective: No
+  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.025 | Defective: No
+*/

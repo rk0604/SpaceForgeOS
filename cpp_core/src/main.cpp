@@ -1,3 +1,9 @@
+/** Compile command:
+ * g++ main.cpp PowerModule.cpp OrbitModel.cpp deposition_model.cpp -I ../include -o simulation
+ * Run command:
+ * ./simulation
+ */
+
 #include <iostream>
 #include <fstream>
 #include <vector> // a vector is a dynamically sized array with O(1)
@@ -9,6 +15,11 @@
 #include "CrystalGrowthModule.hpp"
 #include "Logger.hpp"
 #include "Task.hpp"
+#include <cstdlib> // For rand(), srand()
+#include <ctime>    // for time()
+
+const int SIM_DURATION = 1440;  // 24 hours in minutes
+int DEFECT_COUNT = 0;
 
 // Function to load tasks from file
 std::vector<Task> loadTasksFromFile(const std::string& filename) {
@@ -43,61 +54,82 @@ std::vector<Task> loadTasksFromFile(const std::string& filename) {
     return tasksVector;
 }
 
-// run with this command  g++ main.cpp PowerModule.cpp OrbitModel.cpp -I ../include -o simulation
+// simply log to a csv file 
+std::ofstream openCSVLogFile(const std::string& filename) {
+    std::ofstream file(filename, std::ios::out);
+    if (!file.is_open()) {
+        std::cerr << "Error opening file: " << filename << std::endl;
+        exit(1);  // or return std::ofstream() if you prefer not to exit
+    }
 
-const int SIM_DURATION = 1440;  // 24 hours in minutes
+    // Write headers
+    file << "Minute|,Orbit|,Battery|,Available|,Task|,Phase|,Time_Done|\n";
+    return file;
+}
+
+// log the task vector to terminal
+void logTaskVector(const std::vector<Task>& tasks, std::ostream& out = std::cout) {
+    for (const Task& task : tasks) {
+        out << "Task ID: " << task.id << "\n";
+        for (int i = 0; i < 3; ++i) {
+            out << "  Phase " << i
+                << " | Required: "     << task.phase[i].requiredTime
+                << " | Elapsed: "      << task.phase[i].elapsedTime
+                << " | Energy_used: "  << task.phase[i].energyUsed
+                << " | Interrupted: "  << (task.phase[i].wasInterrupted ? "Yes" : "No")
+                << " | DefectChance: " << task.phase[i].defectChance
+                << " | Defective: "    << (task.phase[i].defective ? "Yes" : "No")
+                << "\n";
+        }
+        out << "-------------------------\n";
+    }
+}
 
 int main() {
+    srand(static_cast<unsigned int>(time(nullptr))); // randomize defects per run
     // Initialize power module
-    PowerModule Power(10000, 300, 0);  // 1000mWh battery capacity, 300W sunlight, 0W eclipse
+    PowerModule Power(250000, 300, 0);  // 250 Wh battery, 300 W solar gen, 0W Eclipse
     // can only draw 300 watts per min from the battery at once
 
     // Load wafer tasks
     std::vector<Task> tasks = loadTasksFromFile("../../scheduler_dl/tasks1.txt");
-    // print the tasks for viewing 
-    for (const Task& task : tasks) {
-        std::cout << "Task ID: " << task.id << "\n";
-        for (int i = 0; i < 3; ++i) {
-            std::cout << "  Phase " << i
-                    << " | Required: " << task.phase[i].requiredTime
-                    << " | Elapsed: " << task.phase[i].elapsedTime
-                    << " | Energy_used: " << task.phase[i].energyUsed << "\n";
-        }
-    }
-/*
-Task ID: T_1
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0
-Task ID: T_2
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0
-Task ID: T_3
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0
-Task ID: T_4
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0
-*/
-
+    logTaskVector(tasks);
 
     int currentTaskIndex = 0;
     int t = 0;
 
     // open the output file to better view the logs
-    std::ofstream outputFile("power_module_testing2.csv", std::ios::out);
-    if (!outputFile.is_open()) {
-        std::cerr << "Error opening file!" << std::endl;
-        return 1; 
-    }
-    outputFile << "Minute|,Orbit|,Battery|,Available|,Task|,Phase|,Time_Done|" << std::endl; // write the headers 
+    std::ofstream outputFile = openCSVLogFile("power_module_testing3.csv");
 
+    // Initialize the 3 phase modules OUTSIDE of the while loop
+    DepositionModule DepositionModuleInstance;
+    Logger logger; 
+
+    // loop runs for N*200 iterations (E.g. 4 tasks ==> 800 iterations)
     while (t < SIM_DURATION && currentTaskIndex < tasks.size()) {
         Task& currentTask = tasks[currentTaskIndex];
         std::string orbitPhase = (t % 90 < 45) ? "sunlight" : "eclipse"; // orbit repeats every 90 mins with 45 minutes of sinlight
+
+        //Check if the phase has an error, if so then go to next task
+        std::string phaseName = "unknown";
+        if (currentTask.currentStage == 0) phaseName = "deposition";
+        else if (currentTask.currentStage == 1) phaseName = "ion_implantation";
+        else if (currentTask.currentStage == 2) phaseName = "crystal_growth";
+
+        if (currentTask.phaseFail()) {
+            outputFile << t << "," << orbitPhase << "," << Power.getBatteryLevel() << "," << Power.getAvailablePower() << "," << currentTask.id
+                    << "," << phaseName << "," << currentTask.currentPhase().elapsedTime << " ❌ DEFECT - Skipped" << std::endl;
+            // Power budget for this minute
+            Power.update(t, orbitPhase);        
+            ++currentTaskIndex;
+            ++t;
+            DEFECT_COUNT++;
+            continue;
+        }
+
+
+        DepositionModuleInstance.enqueue(currentTask);  // Pass by reference
+        DepositionModule::runOneMinute(currentTask, Power, logger); //since it is a static method, call using class names
 
         // Power budget for this minute
         Power.update(t, orbitPhase);
@@ -107,18 +139,24 @@ Task ID: T_4
 
         // set the current phase and required power for that phase
         int requiredPower = 0;
-        std::string phaseName;
+        // std::string phaseName;
 
         if (currentTask.currentStage == 0) {
-            requiredPower = 300; // from minutes [45-60) the available power is 0 since the deposition phase is using exactly the same power 
-            phaseName = "deposition";
-            //  DepositionModule::runOneMinute(currentTask, PowerModule, logger);
+            requiredPower = 300; 
+            // ⚡ Deposition: 300 W power per minute × 60 min = 18,000 Wh (or 18 kWh per wafer)
+            // Since power is in watts, each minute draws 300 W × (1/60) hr = 5 Wh = 5000 mWh from battery
+            // 300 W is the power - to get Wh 
+            // phaseName = "deposition";
         } else if (currentTask.currentStage == 1) {
             requiredPower = 200;
-            phaseName = "ion_implantation";
+            // ⚡ Ion Implantation: 200 W per minute × 20 min = 4,000 Wh (4 kWh per wafer)
+            // Each minute draws 200 W = 3.33 Wh = 3333 mWh
+            // phaseName = "ion_implantation";
         } else if (currentTask.currentStage == 2) {
             requiredPower = 250;
-            phaseName = "crystal_growth";
+            // ⚡ Crystal Growth: 250 W per minute × 120 min = 30,000 Wh (30 kWh per wafer)
+            // Each minute draws 250 W = 4.17 Wh = 4167 mWh
+            // phaseName = "crystal_growth";
         }
 
         bool progressed = false;
@@ -153,71 +191,9 @@ Task ID: T_4
         if (currentTask.isComplete()) {
             ++currentTaskIndex;
         }
-
         ++t;
     }
 
-    std::cout << "Simulation complete.\n";
+    std::cout << "Tasks skipped due to defects: " << DEFECT_COUNT << "\n";
     return 0;
 }
-
-/*
-OLD MANUAL LOOP SKETCH:
-
-int currentTask = 0;
-int phaseMinute = 0;
-std::string currentPhase = "deposition";
-
-for (int t = 0; t < SIM_DURATION; ++t) {
-    std::string orbitPhase = (t % 90 < 45) ? "sunlight" : "eclipse";  // 45min cycles
-    Power.update(t, orbitPhase);
-
-    if (currentPhase == "deposition") {
-        if (Power.canSatisfyDemand(300)) {
-            Power.consumePower(300);
-            DepositionModule.run(); // placeholder
-            ++phaseMinute;
-        }
-
-        if (phaseMinute == 60) {
-            currentPhase = "ion_implantation";
-            phaseMinute = 0;
-        }
-    }
-
-    else if (currentPhase == "ion_implantation") {
-        if (Power.canSatisfyDemand(200)) {
-            Power.consumePower(200);
-            IonImplantationModule.run(); // placeholder
-            ++phaseMinute;
-        }
-
-        if (phaseMinute == 20) {
-            currentPhase = "crystal_growth";
-            phaseMinute = 0;
-        }
-    }
-
-    else if (currentPhase == "crystal_growth") {
-        if (Power.canSatisfyDemand(250)) {
-            Power.consumePower(250);
-            CrystalGrowthModule.run(); // placeholder
-            ++phaseMinute;
-        }
-
-        if (phaseMinute == 120) {
-            currentTask++;
-            phaseMinute = 0;
-            currentPhase = "deposition";
-        }
-    }
-
-    std::cout << "Minute " << t << " | Orbit Phase: " << orbitPhase
-              << " | Battery: " << Power.getBatteryLevel()
-              << " | Available: " << Power.getAvailablePower()
-              << " | Task: " << currentTask
-              << " | Phase: " << currentPhase << "\n";
-
-    if (currentTask == 10) break; // Done with all wafers
-}
-*/

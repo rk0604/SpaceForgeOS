@@ -11,3 +11,4 @@ include_directories(include)
 
 # Create the executable or library
 add_executable(spaceforge_engine ${SOURCES})
+include_directories(${CMAKE_SOURCE_DIR}/include)
