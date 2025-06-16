@@ -12,7 +12,7 @@
  */
 class DepositionModule {
 private:
-    std::queue<Task> queue;   // Queue of pending wafer tasks to be processed
+    std::queue<Task*> queue;   // Queue of pending wafer tasks to be processed
     Task* activeTask = nullptr;  // Pointer to the current task being worked on
     int elapsed = 0;             // Tracks how long the current task has been running
 
@@ -26,7 +26,9 @@ public:
      * @brief Adds a new wafer (task) to the processing queue.
      * @param task The Task to be enqueued for deposition.
      */
-    void enqueue(const Task& task);
+    void enqueue(Task* task);
+
+    bool DepositionModuleEmpty(); // used to check if the queue is empty 
 
     /**
      * @brief Runs one simulation step (one minute) for the active task.
@@ -35,20 +37,23 @@ public:
      * @param t Current simulation time (in minutes)
      * @param power Reference to the PowerModule to check/consume energy
      * @param logger Reference to the logger for tracking task status
+     * 
      */
-    void update(int t, PowerModule& power, Logger& logger);
+    // not static because otherwise cannot use class instance members like this, queue, or activeTask 
+    // not const because it cannot modify members 
+     void update(int t, PowerModule& power, Logger& logger);
 
     /**
      * @brief Checks if the current active task has completed all its phases.
      * @return true if a completed task is ready to be retrieved; false otherwise
      */
-    bool hasCompletedTask() const;
+    bool hasCompletedTask();
 
     /**
      * @brief Returns the completed task and resets the active task pointer.
      * @return The Task object that just finished deposition
      */
-    Task popCompleted();
+    Task* popCompleted();
 
     /**
      * @brief Static helper function to perform 1 minute of deposition on a given task.

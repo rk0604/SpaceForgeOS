@@ -17,6 +17,7 @@
  *  Each Task owns an array of PhaseInfo, one entry per stage, so that:
  *    • Every module touches only its PhaseInfo (single-writer rule)
  *    • The logger or ONNX inference can read global wafer status in O(1)
+ * IMPORTANT!!!! Each thread only accesses its assigned phase - use mutexes 
  */
 struct Task {
 
@@ -29,6 +30,9 @@ struct Task {
         double defectChance = 0.0;     // the error rate for this phase (e.g., 0.01 = 1%)
         bool defective = false;        // whether this phase had a defect
 
+        // Phase phase[3]; // 0: deposition, 1: ion, 2: crystal
+        // std::mutex phaseMutex[3];  // 🔒 one mutex per phase
+
         bool   isDone()        const { return elapsedTime >= requiredTime; }
         int    timeRemaining() const { return std::max(0, requiredTime - elapsedTime); }
     };
@@ -37,7 +41,7 @@ struct Task {
     std::string id;                     // e.g. "T_3"
 
     /* ----- Three manufacturing stages ----- */
-    std::array<PhaseInfo, 3> phase;     // [0]=Depo, [1]=Ion, [2]=Crystal
+    std::array<PhaseInfo, 3> phase;     // [0] = Depo, [1] = Ion, [2] = Crystal
 
     /* ----- Pointer to current stage ----- */
     int currentStage = 0;               // 0..2; 3 ⇒ wafer finished

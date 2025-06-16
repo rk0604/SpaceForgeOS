@@ -1,21 +1,46 @@
-#ifndef ION_IMPLANTATION_MODULE_HPP
-#define ION_IMPLANTATION_MODULE_HPP
+#ifndef IONIMPLANTATIONMODULE_HPP
+#define IONIMPLANTATIONMODULE_HPP
 
 #include "Task.hpp"
 #include "PowerModule.hpp"
+#include "Logger.hpp"
 #include <queue>
 
 class IonImplantationModule {
 private:
-    std::queue<Task> queue;
+    std::queue<Task*> IonImplantQueue; // queue of pending wafer tasks to be processed 
     Task* activeTask = nullptr;
     int elapsed = 0;
 
 public:
-    void enqueue(const Task& task);
-    void update(int t, const PowerModule& power);
-    bool hasCompletedTask() const;
-    Task popCompleted();
+    // empty constructor 
+    IonImplantationModule(); 
+
+    void enqueue(Task* task);
+
+    bool IonImplantationModuleEmpty();
+
+    bool hasCompletedTask();
+
+    Task* popCompleted();
+    
+    // not static because otherwise cannot use class instance members like this, queue, or activeTask 
+    // not const because it cannot modify members 
+    void update(int t, PowerModule& power, Logger& logger);
+
+    // ion implantation's version of runOneMinute
+    static void runOneMinute_imp(Task& task, PowerModule& power, Logger& logger);
+
 };
 
-#endif
+/**
+ * Implantation is about total dose — number of ions implanted per cm². It’s not just time-based; total energy delivered matters.
+ * - Directional shielding requiremenT
+ * - Retry mechanism on failure
+ * - Random drift chance per minute
+ */
+
+
+
+ #endif
+

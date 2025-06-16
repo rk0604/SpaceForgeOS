@@ -63,7 +63,7 @@ std::ofstream openCSVLogFile(const std::string& filename) {
     }
 
     // Write headers
-    file << "Minute|,Orbit|,Battery|,Available|,Task|,Phase|,Time_Done|\n";
+    file << "Minute|,Orbit|,Battery(Wh)|,TotalPowerAvailable_preRUN|,Task|,Phase|,Time_Done|\n";
     return file;
 }
 
@@ -87,86 +87,96 @@ void logTaskVector(const std::vector<Task>& tasks, std::ostream& out = std::cout
 
 int main() {
     srand(static_cast<unsigned int>(time(nullptr))); // randomize defects per run
-    // Initialize power module
-    PowerModule Power(250000, 300, 0);  // 250 Wh battery, 300 W solar gen, 0W Eclipse
-    // can only draw 300 watts per min from the battery at once
+    /**     INITIALIZATIONS:
+     * PowerModule - 250 Wh battery, 300 W solar gen, 0W Eclipse
+     *             - can only draw 300 watts per min from the battery at once
+     * Wafer Tasks into tasks vector
+     * Task Index and current time to 0
+     * openCSVLogFile - open the output file for logs
+     * DepositionModuleInstance
+     *  - for (Task& task : tasks) - enqueue all tasks into the deposition module
+     * LoggerInstance
+     * phaseName - holds the current phase and used for logging purposes 
+     */
+    PowerModule Power(250000, 300, 0);  // battery = 250000 mWh = 250 Wh
+    // 250,000 energy NOT power
 
-    // Load wafer tasks
     std::vector<Task> tasks = loadTasksFromFile("../../scheduler_dl/tasks1.txt");
-    logTaskVector(tasks);
+    // logTaskVector(tasks); // not needed as of now
 
     int currentTaskIndex = 0;
-    int t = 0;
+    int current_t = 0; 
 
-    // open the output file to better view the logs
-    std::ofstream outputFile = openCSVLogFile("power_module_testing3.csv");
+    std::ofstream outputFile = openCSVLogFile("logV1.csv");
 
-    // Initialize the 3 phase modules OUTSIDE of the while loop
     DepositionModule DepositionModuleInstance;
-    Logger logger; 
+    Logger LoggerInstance; 
+
+    // pass the ptr so that the actual task object is passed to the deposition module and NOT a copy 
+    for (Task& task : tasks) {
+        DepositionModuleInstance.enqueue(&task); 
+    }
 
     // loop runs for N*200 iterations (E.g. 4 tasks ==> 800 iterations)
-    while (t < SIM_DURATION && currentTaskIndex < tasks.size()) {
-        Task& currentTask = tasks[currentTaskIndex];
-        std::string orbitPhase = (t % 90 < 45) ? "sunlight" : "eclipse"; // orbit repeats every 90 mins with 45 minutes of sinlight
+    while (current_t < SIM_DURATION && currentTaskIndex < tasks.size()) {
+        Task& currentTask = tasks[currentTaskIndex]; 
+        std::string orbitPhase = (current_t % 90 < 45) ? "sunlight" : "eclipse"; // orbit repeats every 90 mins with 45 minutes of sinlight
 
-        //Check if the phase has an error, if so then go to next task
         std::string phaseName = "unknown";
         if (currentTask.currentStage == 0) phaseName = "deposition";
         else if (currentTask.currentStage == 1) phaseName = "ion_implantation";
         else if (currentTask.currentStage == 2) phaseName = "crystal_growth";
 
-        if (currentTask.phaseFail()) {
-            outputFile << t << "," << orbitPhase << "," << Power.getBatteryLevel() << "," << Power.getAvailablePower() << "," << currentTask.id
-                    << "," << phaseName << "," << currentTask.currentPhase().elapsedTime << " ❌ DEFECT - Skipped" << std::endl;
-            // Power budget for this minute
-            Power.update(t, orbitPhase);        
+        // Power budget for this minute
+        Power.update(current_t, orbitPhase); 
+
+        // Early check to see if a task has failed or stalled due to power outage 
+        if (currentTask.phaseFail() || currentTask.phase[currentTask.currentStage].wasInterrupted == true) {
+            std::string phaseResult = " ❌ UNKNOWN ERROR";
+            if(currentTask.phase[currentTask.currentStage].wasInterrupted) phaseResult = " ❌ STALLED";
+            if(currentTask.phaseFail()) phaseResult = " ❌ DEFECT - Skipped";
+            outputFile << current_t << "," << orbitPhase << "," << (Power.getBatteryLevel()/1000) << "," << Power.getAvailablePower() << "," << currentTask.id
+                    << "," << phaseName << "," << currentTask.currentPhase().elapsedTime << phaseResult << std::endl;       
             ++currentTaskIndex;
-            ++t;
+            ++current_t;
             DEFECT_COUNT++;
             continue;
         }
-
-
-        DepositionModuleInstance.enqueue(currentTask);  // Pass by reference
-        DepositionModule::runOneMinute(currentTask, Power, logger); //since it is a static method, call using class names
-
-        // Power budget for this minute
-        Power.update(t, orbitPhase);
 
         // Get the current phase info for the current task 
         Task::PhaseInfo& phase = currentTask.currentPhase();
 
         // set the current phase and required power for that phase
         int requiredPower = 0;
-        // std::string phaseName;
 
+        bool progressed = false;
         if (currentTask.currentStage == 0) {
+            // energy USED per minute
             requiredPower = 300; 
             // ⚡ Deposition: 300 W power per minute × 60 min = 18,000 Wh (or 18 kWh per wafer)
             // Since power is in watts, each minute draws 300 W × (1/60) hr = 5 Wh = 5000 mWh from battery
-            // 300 W is the power - to get Wh 
             // phaseName = "deposition";
+            DepositionModuleInstance.update(current_t, Power, LoggerInstance);
+            progressed = true;
         } else if (currentTask.currentStage == 1) {
             requiredPower = 200;
             // ⚡ Ion Implantation: 200 W per minute × 20 min = 4,000 Wh (4 kWh per wafer)
             // Each minute draws 200 W = 3.33 Wh = 3333 mWh
-            // phaseName = "ion_implantation";
+            phaseName = "ion_implantation";
         } else if (currentTask.currentStage == 2) {
             requiredPower = 250;
             // ⚡ Crystal Growth: 250 W per minute × 120 min = 30,000 Wh (30 kWh per wafer)
             // Each minute draws 250 W = 4.17 Wh = 4167 mWh
-            // phaseName = "crystal_growth";
+            phaseName = "crystal_growth";
         }
 
-        bool progressed = false;
-        if (Power.canSatisfyDemand(requiredPower)) {
+        // only for non deposition phases 
+        if (currentTask.currentStage != 0 && Power.canSatisfyDemand(requiredPower)) {
             Power.consumePower(requiredPower);
-            phase.elapsedTime += 1;
-            phase.energyUsed += requiredPower;
-            progressed = true; 
-            // this phase of the task got sufficient power from the battery 
+            currentTask.phase[currentTask.currentStage].elapsedTime++;
+            progressed = true;
         }
+
 
         // Check if this phase is complete
         if (phase.isDone()) {
@@ -184,14 +194,14 @@ int main() {
         //           << " / " << phase.requiredTime
         //           << (progressed ? " ✅ Progressed\n" : " ❌ Waiting\n");
         
-        outputFile << t << "," << orbitPhase << "," << Power.getBatteryLevel() << "," << Power.getAvailablePower() << "," << currentTask.id
+        outputFile << current_t << "," << orbitPhase << "," << (Power.getBatteryLevel()/1000) << "," << (Power.getAvailablePower()) << "," << currentTask.id
         << "," << phaseName << "," << phase.elapsedTime << (progressed ? " ✅ Progressed" : " ❌ Waiting") << std::endl;
 
         // If task is complete, move to next
         if (currentTask.isComplete()) {
             ++currentTaskIndex;
         }
-        ++t;
+        ++current_t;
     }
 
     std::cout << "Tasks skipped due to defects: " << DEFECT_COUNT << "\n";
