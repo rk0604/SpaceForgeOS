@@ -1,4 +1,4 @@
-#include "PowerModule.hpp"
+#include "PowerBus.hpp"
 #include <algorithm>  
 // This file implements all the functions declared in the header
 
@@ -48,6 +48,7 @@ void PowerModule::consumePower(int watts) {
     
 }
 
+double PowerModule::getSOC() const {  return (static_cast<double>(battery_) / maxBattery_) * 100.0;}
 // query methods
 int PowerModule::getAvailablePower() const { return budgetThisMinute_; }
 int PowerModule::getBatteryLevel()   const { return battery_; }

@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    "SolarArray",
+    "Battery",
+    "PowerBus",
+    "HeaterBank",
+    "EffusionCell_GaAs",
+    "WakeChamber",
+    "AttitudeCtrl"
+  ],
+  "edges": [
+    ["SolarArray", "PowerBus"],
+    ["Battery", "PowerBus"],
+    ["PowerBus", "Battery"],
+
+    ["PowerBus", "HeaterBank"],
+    ["HeaterBank", "EffusionCell_GaAs"],
+
+    ["EffusionCell_GaAs", "WakeChamber"],
+
+    ["PowerBus", "AttitudeCtrl"]
+  ],
+  "features": {
+    "SolarArray": ["sun_fraction", "watts_in"],
+    "Battery": ["soc", "temp", "voltage"],
+    "PowerBus": ["bus_voltage", "power_balance"],
+    "HeaterBank": ["power_draw"],
+    "EffusionCell_GaAs": ["temp", "gate_voltage", "power_draw", "deposition_rate"],
+    "WakeChamber": ["pressure", "uniformity_index"],
+    "AttitudeCtrl": ["rpm", "power_draw"]
+  },
+  "targets": {
+    "forecast": "Battery.soc"
+  }
+}

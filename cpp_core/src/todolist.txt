@@ -1,0 +1,8 @@
+
+TASKS INCOMPLETE:
+1. Output battery SoC in PowerModule.cpp
+2. Even if they're combined in C++ (PowerModule), for ML and simulation clarity, each should be its own node in the ST-GNN graph, with its own telemetry features.
+
+
+COMPLETED TASKS:
+

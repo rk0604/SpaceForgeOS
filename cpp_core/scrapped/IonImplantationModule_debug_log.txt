@@ -1,0 +1,2825 @@
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 245000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 244800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 244400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 244200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 243800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 243600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 243200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 243000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 242400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 242000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 241800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 241400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 241200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 239200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 239500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 239800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 240100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 240400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 240700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 241000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 247550
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 247850
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 248150
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 248450
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 248750
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 249050
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 249350
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 249650
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 249950
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 249800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 249200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 249000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 248600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 248400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 248200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 246800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 246600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 246400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 246200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 246000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 245800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 245600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 245400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 245200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 245000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 244800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 244400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 244200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 243600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 243200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 243000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 248500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 249100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 249700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 249800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 249200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 249000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 248600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 248400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 248200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 248000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 247800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 247600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 247400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 247200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 246700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 246500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 246300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 246100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 245900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 245700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 245500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 245300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 245100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 244700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 244500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 244100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 243500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 243300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 242900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 239200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 239500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 239800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 240100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 240400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 240700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 241000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 247200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 247500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 247800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 248100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 248400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 248700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 249000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 249300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 249900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 249800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 249200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 249000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 248600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 248400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 245000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 244800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 244400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 244200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 243800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 243600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 243200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 243000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 242400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 242000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 241800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 241400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 241200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 239200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 239500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 239800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 240100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 240400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 240700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 241000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 247550
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 247850
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 248150
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 248450
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 248750
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 249050
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 249350
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 249650
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 249950
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 249800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 249200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 249000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 248600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 248400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 248200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 246800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 246600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 246400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 246200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 246000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 245800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 245600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 245400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 245200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 245000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 244800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 244400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 244200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 243600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 243200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 243000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 245000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 244800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 244400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 244200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 243800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 243600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 243200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 243000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 242400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 242000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 241800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 241400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 241200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 239200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 239500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 239800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 240100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 240400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 240700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 241000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 239200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 239500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 239800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 240100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 240400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 240700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 241000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 247600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 248500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 249100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 249700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 249800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 249200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 249000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 248600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 248400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 248200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 248000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 247800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 247600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 247400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 247200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 246700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 246500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 246300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 246100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 245900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 245700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 245500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 245300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 245100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 244700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 244500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 244100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 243500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 243300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 242900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 20
+  Battery levels_post_exec: 239200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 19
+  Battery levels_post_exec: 239500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 18
+  Battery levels_post_exec: 239800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 240100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 240400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 240700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 241000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 239800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 240100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 240400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 240700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 241000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 241600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 242800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 243400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 244000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 247300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 247600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 247900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 248200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 248500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 249100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 249700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 249800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 249200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 249000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 248600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 248100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 247900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 247700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 247500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 247300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 247100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 246900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 246700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 246500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 246300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 246100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 245900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 245700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 245500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 245300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 245100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 239900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 239700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 239500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 239300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 239100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 239400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 239700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 240000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 240300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 240600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 240900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 241200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 241500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 241800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 242100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 242400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 242700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 244100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 243900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 243700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 243500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 243300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 243100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 242900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 242700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 242100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 241700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 241500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 241100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 240900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 243000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 243300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 243600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 243900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 244200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 244500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 244800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 245100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 245400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 245700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 246000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 246300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 246600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 246900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 247200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 247500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 247800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 249800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 248900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 248700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 248500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 248300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 248100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 247900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 247700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 247500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 247300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 247100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 246900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 246700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 246500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 246300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 246100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 245900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 245700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 249100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 249700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 250000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 249800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 249600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 249400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 249200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 249000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 248800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 248600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 248400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 248200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 248000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_1
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 247800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 247300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 247100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 246900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 246700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 246500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 246300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 246100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 245900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 245700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 245500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 245300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 245100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 244900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 244700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 244500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 244300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_2
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 244100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 238700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 239000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 239300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 239600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 239900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 240200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 240500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 240800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 242900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 242700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 242500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 242300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 242100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 241900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 241700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 241500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_3
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 241300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 17
+  Battery levels_post_exec: 240800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 16
+  Battery levels_post_exec: 240600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 15
+  Battery levels_post_exec: 240400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 14
+  Battery levels_post_exec: 240200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 13
+  Battery levels_post_exec: 240000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 12
+  Battery levels_post_exec: 240300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 11
+  Battery levels_post_exec: 240600
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 10
+  Battery levels_post_exec: 240900
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 9
+  Battery levels_post_exec: 241200
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 8
+  Battery levels_post_exec: 241500
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 7
+  Battery levels_post_exec: 241800
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 6
+  Battery levels_post_exec: 242100
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 5
+  Battery levels_post_exec: 242400
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 4
+  Battery levels_post_exec: 242700
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 3
+  Battery levels_post_exec: 243000
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 2
+  Battery levels_post_exec: 243300
+--------------------------
+Called: IonImplantationModuleModule::runOneMinute()
+  Task ID_DEP: T_4
+  Required Time_to_completion: 1
+  Battery levels_post_exec: 243600
+--------------------------

@@ -1,64 +1,89 @@
-timestamp
-# Global simulation step number (e.g., 0, 1, 2...). Advances once per tick.
+| Node Name            | Backed by C++ Class         
+| -------------------- | --------------------------- 
+| `SolarArray`         | `SolarArray`                
+| `Battery`            | `Battery`                   
+| `PowerBus`           | `PowerBus`                  
+| `HeaterBank`         | `HeaterBank`                
+| `EffusionCell_*`     | `EffusionCell<…>` (Ga, As…) 
+| `WakeChamber`        | `WakeChamber`               
+| **`ChamberCleaner`** | **`ChamberCleaner`**        
+| `AttitudeCtrl`       | `AttitudeCtrl`              
 
-task_id
-# Unique identifier for the full manufacturing process of one wafer or chip unit (e.g., T001). Groups all task phases.
+| Edge (A → B)                       | Info Type                                                |
+| ---------------------------------- | -------------------------------------------------------- |
+| (SolarArray, Battery)              | **Energy** — array re-charges the pack                   |
+| (SolarArray, PowerBus)             | **Energy** — array powers the main bus                   |
+| (Battery, PowerBus)                | **Energy** — pack discharges into the bus                |
+| NOT USED AS OF NOW (PowerBus, Battery)                | **Energy** — surplus bus power charges the pack          |
+| (Battery, HeaterBank)              | **Energy** — battery supplies heater current             |
+| (HeaterBank, Battery)              | **Thermal** — heaters warm the battery enclosure         |
+| (HeaterBank, EffusionCell\_\*)     | **Thermal** — heater set-points drive crucible temps     |
+| NOT USED AS OF NOW (EffusionCell\_\*, HeaterBank)     | **Thermal** — cell temperature feedback to PID           |
+| (EffusionCell\_\*, WakeChamber)    | **Material** — vapor flux enters the chamber             |
+| (WakeChamber, EffusionCell\_\*)    | **Pressure** — chamber pressure throttles cell power     |
+| NOT USED AS OF NOW (EffusionCell\_\*, ChamberCleaner) | **Maintenance** — deposition buildup requests cleaning   |
+| (ChamberCleaner, EffusionCell\_\*) | **Maintenance** — cleaning cycle cools the cells         |
+| (ChamberCleaner, WakeChamber)      | **Pressure** — cleaner pumps/gas change chamber pressure |
+| (ChamberCleaner, PowerBus)         | **Energy** — cleaner draws high electrical load          |
+| (AttitudeCtrl, PowerBus)           | **Energy** — reaction-wheel drive loads the bus          |
 
-task_phase_id
-# Unique ID for the current phase of a task (e.g., T001_deposition). Treated as the atomic unit of scheduling.
-
-task_phase_name
-# Name of the current manufacturing phase being executed (e.g., "deposition", "ion_implantation", "crystal_growth").
-
-phase_time_remaining(min) - minutes
-# Number of simulation steps left to complete this phase.
-
-phase_power_demand(w) - watts
-# Amount of power (in watts or units) required per step to execute this phase.
-
-phase_power_used(w) - watts
-# Actual power used this step. Could be lower than demand if power is limited.
-
-phase_energy_used_total(w) - watts
-# Cumulative power consumed by this task_phase_id since it began.
-
-battery_level - % value
-# Current battery reserve level after this task phase's power draw.
-
-task_phase_status
-# Current execution state of the phase: "waiting", "processing", "done", or "power_blocked".
-
-failure_event
-# 0 or 1. Indicates whether a system or phase failure occurred at this step.
-
-orbital_phase
-# "sunlight" or "eclipse", based on orbital conditions. Affects available power.
-
-task_queue_snapshot
-# List of active task_ids in the queue at this timestep. Shows scheduling context (e.g., ['T002', 'T003']).
-
-task_throughput_counter
-# Cumulative number of completed task_ids (i.e., full wafer jobs). Used as reward for throughput optimization.
-
-# Tasks simulated: deposition, ion implantation, and crystal growth — representing core energy-intensive processes in orbital semiconductor manufacturing.
+| Column                                               | Node           | Supports edge(s)                                 |
+| ---------------------------------------------------- | -------------- | ------------------------------------------------ |
+| `time_utc`                                           | –              | sequence alignment                               |
+| `SolarArray_power_W`                                 | SolarArray     | SA → Battery, SA → PowerBus                      |
+| `Battery_soc_pct`                                    | Battery        | all Battery energy flows                         |
+| `Battery_current_A`                                  | Battery        | Battery → PowerBus & implicit PowerBus → Battery |
+| `Battery_temp_C`                                     | Battery        | HeaterBank → Battery thermal effect              |
+| `PowerBus_voltage_V`                                 | PowerBus       | every bus-related energy edge                    |
+| `HeaterBank_power_W`                                 | HeaterBank     | Battery → HB, HB → Battery, HB → EffusionCell    |
+| `EffusionCell_temp_C`                                | EffusionCell   | HB → EffusionCell, WC → EC feedback              |
+| `WakeChamber_pressure_torr`                          | WakeChamber    | EC → WC, WC → EC, Cleaner → WC                   |
+| `ChamberCleaner_phase` *or* `ChamberCleaner_power_W` | ChamberCleaner | Cleaner → PowerBus, Cleaner → WakeChamber        |
+| `AttitudeCtrl_power_W`                               | AttitudeCtrl   | AttCtrl → PowerBus                               |
 
 
-**Task Vector in Main.cpp**:
-/*
-Task ID: T_1
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.01 | Defective: No
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.001 | Defective: No
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.025 | Defective: No
-Task ID: T_2
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.01 | Defective: No
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.001 | Defective: No
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.025 | Defective: No
-Task ID: T_3
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.01 | Defective: No
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.001 | Defective: No
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.025 | Defective: No
-Task ID: T_4
-  Phase 0 | Required: 60 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.01 | Defective: No
-  Phase 1 | Required: 20 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.001 | Defective: No
-  Phase 2 | Required: 120 | Elapsed: 0 | Energy_used: 0 | Interrupted: No | DefectChance: 0.025 | Defective: No
-*/
+| C++ Class                                    | Core Responsibilities                                                              | Key `tick(dt)` Outputs          |
+| -------------------------------------------- | -----------------------------------------------------------------------------------| ------------------------------- |
+| `OrbitEnv`                                   | Computes sunlight/eclipse flag, Earth IR, panel angle each second.                 | `sun_fraction`, `orbital_time`  |
+| `SolarArray`                                 | Converts irradiance → Watts via IV curve, sends power to `Bus`.                    | `power_out`                     |
+| `Battery`                                    | Integrator for charge/ discharge with temp derating; exposes SoC.                  | `soc`, `temp`, `voltage`        |
+| `PowerBus`                                   | Kirchhoff algebra: sums array, battery, loads; triggers brown-out flag.            | `bus_voltage`, `power_balance`  |
+| `HeaterBank`                                 | PID loop that holds effusion cells ≥ X °C when enabled.                            | `power_draw`                    |
+| `EffusionCell` (template param for material) | Joule heating + mass flow; computes deposition rate vs temp.                       | `power_draw`, `deposition_rate` |
+| `WakeChamber`                                | Simple CFD lookup: pressure = f(orbit\_velocity, panel\_distance).                 | `pressure`, `uniformity_index`  |
+| `AttitudeCtrl`                               | Reaction-wheel spin & pointing consumption.                                        | `power_draw`, `body_rate`       |
+| `TaskManager`                                | Holds a queue/graph of `DepositionTask`s, exposes API to start/stop.               | `active_task_id`, `phase`       |
+| `Scheduler`                                  | (Option A → rule-based, Option B → RL agent) chooses next action.                  | `command`                       |
+| `DataLogger`                                 | Streams all struct fields to CSV/hdf5 every minute for ML.                         | –                               |
+| `ChamberCleaner`                             | Sequences bake-out → plasma sweep → H-beam → AO wash; flags when chamber is “ready”| CleanPhase, power-draw, O_2, H_2 used and base pressure
+NOTE:
+1. for wakeChamber use Empirical “κ-factor” fit for rarefied DSMC results
+2. 
+
+🧠 What ST-GNN Learns (per Option A)
+It sees patterns like:
+
+“HeaterBank spike + orbit entering eclipse ⇒ Battery SoC will crash in 40 minutes.”
+
+You feed it the last 7–10 minutes of multivariate node data.
+
+It outputs a forecasted SoC 30–60 minutes ahead.
+
+Optional: connect output to Scheduler with rules like:
+"Pause deposition if SoC forecasted < 15%" to avoid brown-outs.
+
+
+
+SEMICONDUCTOR DEVICE FUNDAMENTALS GUIDE:
+| Priority                                                                 | Chapter                                                                                      | Why it matters for *your* Deposition-only stack                                                                                                                                                                |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Must read first**                                                      | **Ch 1 – Semiconductors: A General Introduction** → § 1.3 *Crystal Growth*                   | Lays out lattice types, Miller indices, and single-crystal formation. Gives you the vocabulary for “ultra-vacuum film uniformity” checks in `WakeChamber`. ([academia.edu][1])                                 |
+|                                                                          | **Ch 4 – Basics of Device Fabrication** → § 4.1.5 *Thin-Film Deposition* + § 4.1.6 *Epitaxy* | Direct treatment of evaporation, sputtering, CVD, and epitaxial growth—the exact physics you’ll encode in `EffusionCell` and `DepositionModule`. ([academia.edu][1])                                           |
+
+
+| **Good foundations**                                                     | Ch 2 *Carrier Modeling* & Ch 3 *Carrier Action*                                              | Helpful if you later want to predict resistivity/defect density of the freshly-grown layer or plug mobility vs-temperature curves into an SPC dashboard. ([academia.edu][1])                                   |
+| **Device-level context (optional for now)**                              | Ch 5 – 9 (pn-junction diodes & optoelectronics)                                              | Useful **only** if you plan to fabricate simple test diodes on-orbit to monitor film quality; otherwise safe to skim. ([academia.edu][1])                                                                      |
+| **Mostly out-of-scope after dropping Ion Implantation & Crystal Growth** | Ch 10 – 14 (BJTs, PNPN devices, Schottky)                                                    | These chapters revolve around dopant management and vertical diffusion profiles—no longer a priority for a pure deposition mission.                                                                            |
+| **Future expansion**                                                     | Ch 15 – 19 (FET family & modern short-channel effects)                                       | Keep in your back pocket if SpaceForgeOS later grows into full device fabrication or you want training data for an **RL scheduler** that co-optimizes deposition **and** gate-stack steps. ([academia.edu][1]) |
+| **Reference**                                                            | Appendix A *Elements of Quantum Mechanics*                                                   | Quick refresher on band theory if you need to derive bandgap-vs-strain for exotic materials you might try depositing.                                                                                          |
+

@@ -1,23 +1,67 @@
 #include "Logger.hpp"
 #include <iostream>
+#include <mutex>
+#include <atomic>
 
-// Optional: actually increment throughput count
+Logger::Logger(const std::string& filename) {
+    file.open(filename);
+    if (!file.is_open()) {
+        std::cerr << "Error opening log file: " << filename << std::endl;
+        exit(1);
+    }
+
+    // Unified header for deep learning
+    file << "Minute,Module,TaskID,Phase,Active,Calibrating,Cooldown,Elapsed,Required,EnergyUsed,BatteryLevel,PowerAvailable,Interrupted,Defective,Orbit,Action,Reward\n";
+}
+
+Logger::~Logger() {
+    if (file.is_open()) {
+        file.close();
+    }
+}
+
 void Logger::incrementThroughput() {
     throughput++;
 }
 
-// Just print out when log is called — stub for testing
-void Logger::log(int t,
-                 const DepositionModule&,
-                 const IonImplantationModule&,
-                 const CrystalGrowthModule&,
-                 const PowerModule& power,
-                 const std::string& orbitalPhase) {
-    std::cout << "[Logger] Time: " << t << ", Orbit Phase: " << orbitalPhase
-              << ", Battery: " << power.getBatteryLevel() << std::endl;
+int Logger::getThroughput() const {
+    return throughput;
 }
 
-// Placeholder — no actual CSV logic yet
-void Logger::exportCSV(const std::string& filename) {
-    std::cout << "[Logger] Exporting CSV to: " << filename << std::endl;
+void Logger::log(int minute,
+                 const std::string& module,
+                 const std::string& taskId,
+                 int phaseIndex,
+                 bool isActive,
+                 bool isCalibrating,
+                 int cooldownRemaining,
+                 int elapsedTime,
+                 int requiredTime,
+                 int energyUsed,
+                 int batteryLevel,
+                 int powerAvailable,
+                 bool wasInterrupted,
+                 bool defective,
+                 const std::string& orbit,
+                 const std::string& action,
+                 float reward) {
+    std::lock_guard<std::mutex> lock(logMutex);
+
+    file << minute << ","
+         << module << ","
+         << taskId << ","
+         << phaseIndex << ","
+         << isActive << ","
+         << isCalibrating << ","
+         << cooldownRemaining << ","
+         << elapsedTime << ","
+         << requiredTime << ","
+         << energyUsed << ","
+         << batteryLevel << ","
+         << powerAvailable << ","
+         << wasInterrupted << ","
+         << defective << ","
+         << orbit << ","
+         << action << ","
+         << reward << "\n";
 }

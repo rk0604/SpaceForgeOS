@@ -35,6 +35,7 @@ public:
     int  getAvailablePower() const;   // Remaining budget this minute (W)
     int  getBatteryLevel()   const;   // Battery state of charge (mWh)
     int  getLastProduced()   const;   // Solar generation this minute (W)
+    double getSOC() const;   // SoC in percent (0–100)
 
 private:
     /* ---------- persistent state ---------- */

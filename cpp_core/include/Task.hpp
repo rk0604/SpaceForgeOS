@@ -4,6 +4,8 @@
 #include <string>
 #include <array>
 #include <algorithm>   // std::max
+#include <mutex>
+#include <atomic>
 
 /**
  * @brief  Full life-cycle record for a single wafer (“task”).
@@ -42,6 +44,9 @@ struct Task {
 
     /* ----- Three manufacturing stages ----- */
     std::array<PhaseInfo, 3> phase;     // [0] = Depo, [1] = Ion, [2] = Crystal
+
+    // one mutex for each phase
+    std::mutex phaseMutex[3];
 
     /* ----- Pointer to current stage ----- */
     int currentStage = 0;               // 0..2; 3 ⇒ wafer finished

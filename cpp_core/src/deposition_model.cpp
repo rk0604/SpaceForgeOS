@@ -4,6 +4,9 @@
 #include <fstream> 
 #include <cstdlib> // For rand(), srand()
 #include <ctime>   // For time()
+#include <mutex>
+#include "Logger.hpp"
+#include <atomic>
 
 // Constructor
 DepositionModule::DepositionModule() 
@@ -29,11 +32,12 @@ bool DepositionModule::hasCompletedTask() {
 }
 
 // One-minute update method - owns the state machine of the module 
-void DepositionModule::update(int t, PowerModule& power, Logger& logger) {
+void DepositionModule::update(int t, PowerModule& power, Logger& logger, std::mutex* powerMutex, std::atomic<int>* orbitState) {
     std::cout << "Called: DepositionModule::update() | Minute: " << t << std::endl;
+    std::string orbit = orbitState -> load() == 0 ? "sunlight" : "eclipse";
 
     // If task is complete, pop it
-    if (hasCompletedTask()) {
+    if (hasCompletedTask()) {   
         Task* finished = popCompleted();
         std::cout << "Task completed and removed from DepositionModule: " << finished->id << "\n";
         // Do not delete the task since main owns it
@@ -48,25 +52,59 @@ void DepositionModule::update(int t, PowerModule& power, Logger& logger) {
 
     // If there's an active task, try to run it
     if (activeTask) {
-        int requiredPower = 300; 
+        int requiredPower = 300;
+        {
+            // Lock powerMutex ONLY around power operations: lock_guard needs a name to instantiate; <std::mutex> is a template specialization "typecast"
+            std::lock_guard<std::mutex> powerLock(*powerMutex);
 
-        if (power.canSatisfyDemand(requiredPower)) {
-            power.consumePower(requiredPower);
+            if (power.canSatisfyDemand(requiredPower)) {
+                power.consumePower(requiredPower);
+            } else {
+                {
+                    std::lock_guard<std::mutex> lockPhaseDep(activeTask->phaseMutex[0]);
+                    activeTask->phase[0].wasInterrupted = true;
+                    activeTask->phase[0].elapsedTime++;
+                }
+                std::cout << "Not enough power, skipping this task this minute.\n";
+                return;
+            }
+        }   // mutex is unlocked 
+
+        // Now lock the task phase safely to increment ITS elapsedTime and energyUsed
+        {
+            std::lock_guard<std::mutex> lockPhaseDep(activeTask -> phaseMutex[0]);
             activeTask -> phase[0].energyUsed += requiredPower;
-            runOneMinute(*activeTask, power, logger);  
-            activeTask->phase[0].elapsedTime++;                 
-        } else {
-            activeTask -> phase[0].wasInterrupted = true;
-            activeTask->phase[0].elapsedTime++; 
-            std::cout << "Not enough power, skipping this task this minute.\n";
+            runOneMinute(*activeTask, power, logger);
+            activeTask -> phase[0].elapsedTime++;
         }
+
+        logger.log(
+            t,
+            "Deposition",
+            activeTask->id,
+            0,
+            true,
+            false,
+            0,
+            activeTask->phase[0].elapsedTime,
+            activeTask->phase[0].requiredTime,
+            activeTask->phase[0].energyUsed,
+            power.getBatteryLevel() / 1000,
+            power.getAvailablePower(),
+            activeTask->phase[0].wasInterrupted,
+            activeTask->phase[0].defective,
+            orbit,  // You'll need to pass orbit string into update()
+            "run",
+            0.0f
+        );
     }
 }
+
 
 // Static function to run one minute of deposition
 // Static because it doesn't use any internal members of the DepositionModule class
 void DepositionModule::runOneMinute(Task& task, PowerModule& power, Logger& logger) {
-    std::ofstream file("deposition_debug_log.txt", std::ios::app);
+    std::ofstream file("debugLogs/deposition_debug_log.txt", std::ios::app);
 
     if (!file.is_open()) {
         std::cerr << "[ERROR] Could not open deposition_debug_log.txt" << std::endl;
@@ -96,4 +134,30 @@ Task* DepositionModule::popCompleted() {
     activeTask = nullptr;          // machine is now idle
     elapsed = 0;
     return completed;
+}
+
+// Discard a task from the active slot and internal queue
+void DepositionModule::discardTask_dep(Task* task) {
+    std::cout << "[DepositionModule] Discarding Task: " << task->id << std::endl;
+
+    // If the task is currently being processed
+    if (activeTask == task) {
+        std::cout << "[DepositionModule] Task was active. Resetting active slot.\n";
+        activeTask = nullptr;
+        elapsed = 0;
+    }
+
+    // Rebuild the queue without the discarded task
+    std::queue<Task*> newQueue;
+    while (!queue.empty()) {
+        Task* queuedTask = queue.front();
+        queue.pop();
+        if (queuedTask != task) {
+            newQueue.push(queuedTask);
+        } else {
+            std::cout << "[DepositionModule] Task found in queue and removed: " << task->id << "\n";
+        }
+    }
+
+    queue.swap(newQueue);  // Replace with updated queue
 }
