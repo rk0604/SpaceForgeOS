@@ -12,6 +12,7 @@
 
 from dataclasses import dataclass
 import math
+import numpy as np
 
 @dataclass(frozen=True)
 class Shield:
@@ -40,9 +41,26 @@ class WaferPlane:
 
 
 @dataclass(frozen=True)
+class WakeCone:
+    half_angle_deg: float        # alpha  (half–opening angle)
+    length: float                # how far downstream you care to monitor [m]
+
+     # returns the unit vector along the cone's central axis - scene.wake.axis
+    @property
+    def axis(self) -> np.ndarray:        # global –Z by convention so the cone points opposite of the negative velocity
+        return np.array([0.0, 0.0, -1.0])
+
+     # used repeatedly for intersection test 
+    @property
+    def cos2(self) -> float:             # cos^2(alpha) (pre-computed)
+        return 1.0 / (1.0 + np.tan(np.radians(self.half_angle_deg))**2)
+   
+   
+@dataclass(frozen=True)
 class Scene:
     shield: Shield
     wafer: WaferPlane
+    wake:  WakeCone
     
 '''
 Sample usage:

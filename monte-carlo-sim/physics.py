@@ -1,43 +1,42 @@
 import numpy as np
+
 from math3d import (
     rand_unit_vector_cosine_weighted,
-    plane_intersection,         # wafer plane
-    sphere_intersection,        # shield surface 
-    disk_hit,
+    plane_intersection,          # wafer plane hit
+    sphere_intersection,         # spherical shield hit
+    disk_hit,                    # point-in-wafer test
+    rays_hit_infinite_cone,      # NEW – wake-cone intersection test
 )
 from geometry import Scene
 
-SPEED_MEAN = 8_000  # m/s, approximate orbital velocity
+SPEED_MEAN = 8_000.0  # m/s  (approx orbital velocity)
 
 # ---------------------------------------------------------------------
 # Particle source
 # ---------------------------------------------------------------------
 def sample_incident(scene: Scene, size: int, rng=None):
     """
-    Sample origin & velocity vectors for 'size' particles.
+    Generate `size` particles above the shield.
 
-    • Origins: flat disk at Z = +1 m, radius = 1.1 x shield.radius
-    • Directions: cosine-weighted toward the NEGATIVE Z_axis
+    • Origins  : random disc at Z = +1 m, radius = 1.5 x shield.radius
+    • Velocities: cosine-weighted directions aimed toward -Z
     """
-    if rng is None:
-        rng = np.random
+    rng = np.random if rng is None else rng
 
-    # disk sampling
-    r_max = scene.shield.radius * 1.1       # every particle’s origin is picked on a disk that sits directly above the shield
-    theta = rng.uniform(0, 2 * np.pi, size)
-    radius = r_max * np.sqrt(rng.uniform(0, 1, size))
-    x = radius * np.cos(theta)
-    y = radius * np.sin(theta)
-    z = np.full_like(x, 1.0)              # spawn the particles 1 meter above the shield plane
+    r_max = scene.shield.radius * 1.5
+    theta = rng.uniform(0.0, 2.0 * np.pi, size)
+    r     = r_max * np.sqrt(rng.uniform(0.0, 1.0, size))
+
+    x = r * np.cos(theta)
+    y = r * np.sin(theta)
+    z = np.full_like(x, 1.0)                 # 1 m above shield
 
     pos = np.stack([x, y, z], axis=1)
 
-    # cosine weighted directions toward –Z since that is the side facing the wafer
-    # -Z == concave side, +Z == convex side
-    velocity_dir = -rand_unit_vector_cosine_weighted(size)     # rand_unit_vector_cosine_weighted returns velocity vectors pointing straight up (+Z) so negate them to point (-Z)(size, 3)
-    velocity   = velocity_dir * SPEED_MEAN                          # constant speed for all particles 
+    v_dir = -rand_unit_vector_cosine_weighted(size)  # point toward –Z
+    vel   = v_dir * SPEED_MEAN
 
-    return pos, velocity
+    return pos, vel
 
 
 # ---------------------------------------------------------------------
@@ -49,27 +48,23 @@ def reflect_specular(v_in: np.ndarray, normal: np.ndarray) -> np.ndarray:
 
 
 def reflect_diffuse(normal: np.ndarray, rng=None) -> np.ndarray:
-    """Lambertian (cosine-weighted) hemisphere reflection."""
-    if rng is None:
-        rng = np.random
+    """Lambertian (cosine-weighted) reflection."""
+    rng   = np.random if rng is None else rng
+    local = rand_unit_vector_cosine_weighted(1)[0]   # +Z hemisphere
 
-    local = rand_unit_vector_cosine_weighted(1)[0]      # in +Z hemi
     z_axis = np.array([0.0, 0.0, 1.0])
-
-    # Rotate 'local' so that +Z aligns with 'normal'
-    axis  = np.cross(z_axis, normal)
+    axis   = np.cross(z_axis, normal)
     axis_n = np.linalg.norm(axis)
-    if axis_n < 1e-6:            # already aligned
+    if axis_n < 1e-6:                 # already aligned
         return local if normal[2] > 0 else -local
 
-    axis /= axis_n
-    angle = np.arccos(np.clip(np.dot(z_axis, normal), -1.0, 1.0))
+    axis  /= axis_n
+    angle  = np.arccos(np.clip(np.dot(z_axis, normal), -1.0, 1.0))
     return rotate_vector(local, axis, angle)
 
 
-def rotate_vector(v: np.ndarray, axis: np.ndarray, angle: float) -> np.ndarray:
-    """Rodrigues rotation formula."""
-    k = axis
+def rotate_vector(v: np.ndarray, k: np.ndarray, angle: float) -> np.ndarray:
+    """Rodrigues' rotation formula."""
     return (
         v * np.cos(angle)
         + np.cross(k, v) * np.sin(angle)
@@ -82,57 +77,89 @@ def rotate_vector(v: np.ndarray, axis: np.ndarray, angle: float) -> np.ndarray:
 # ---------------------------------------------------------------------
 def trace_batch(scene: Scene, batch_size: int, rng=None):
     """
-    Trace 'batch_size' particles and return:
-
-    • mean_deflection_deg : <θ> between –v_in and v_out (deg)
-    • hit_ratio           : fraction that reach wafer
+    Returns
+    --------
+    mean_deflection_deg : float
+        Average angle between -v_in and v_out (deg).  0° = perfect back-scatter,
+        180° = no deflection.
+    hit_ratio : float
+        Fraction of particles that strike the wafer.
+    wake_intrusion_ratio : float
+        Fraction of particles whose ray intersects the wake cone.
     """
-    if rng is None:
-        rng = np.random
+    rng = np.random if rng is None else rng
 
+    # initial sample
     pos, vel = sample_incident(scene, batch_size, rng)
 
-    wafer_hits      = 0
-    total_theta_deg = 0.0
+    wafer_hits   = 0
+    wake_hits    = 0
+    total_theta  = 0.0
 
-    # Spherical-cap geometry
-    R_sphere   = 1.0 / scene.shield.curvature          # curvature = 1/R
-    sphere_ctr = np.array([0.0, 0.0, R_sphere])        # cap centre
+    # Convenience values (wake geometry)
+    apex       = np.zeros(3)            # shield centre alligned with wake cone tip
+    axis       = scene.wake.axis        # global –Z  [0.0, 0.0, -1.0] - pointing towards the wafer (downstream)
+    cos2_alpha = scene.wake.cos2
+
+    # spherical cap parameters
+    R_sphere   = 1.0 / scene.shield.curvature
+    sphere_ctr = np.array([0.0, 0.0, R_sphere])
+
+    wafer_ctr  = np.array(
+        [scene.wafer.xy_offset[0],
+         scene.wafer.xy_offset[1],
+         scene.wafer.z_offset]
+    )
 
     for i in range(batch_size):
-        v_in      = vel[i]
-        v_in_unit = v_in / np.linalg.norm(v_in)
+        v_in       = vel[i]
+        v_in_unit  = v_in / np.linalg.norm(v_in)
 
-        # ---------- shield intersection (spherical cap) ----------
-        hit = sphere_intersection(pos[i], v_in_unit, R_sphere)
-        if np.any(np.isnan(hit)):
-            continue                                   # missed shield
+        # ---------- Shield intersection ----------
+        hit_pt = sphere_intersection(pos[i], v_in_unit, -R_sphere)
+        
+        if not np.any(np.isnan(hit_pt)):
+            r2 = hit_pt[0]**2 + hit_pt[1]**2
+            if r2 > scene.shield.radius**2:          # outside physical rim
+                hit_pt = np.full(3, np.nan)          # treat as MISS
 
-        # calculate the normal at which the particle hits the shield - Surface normal
-        normal = (hit - sphere_ctr) / R_sphere        
+        if np.any(np.isnan(hit_pt)):          # MISS: no reflection
+            ray_pos = pos[i]
+            ray_dir = v_in_unit
 
-        # ---------- reflection ----------
-        if scene.shield.coating_type == "specular":
-            v_out = reflect_specular(v_in_unit, normal)
-        else:
-            v_out = reflect_diffuse(normal, rng)
+            # deflection = 180 (no change)
+            total_theta += 180.0
+        else:                                 # HIT: reflect
+            normal = (hit_pt - sphere_ctr) / R_sphere
 
-        # Deflection angle (deg) between –v_in and v_out
-        cos_th  = np.clip(np.dot(-v_in_unit, v_out), -1.0, 1.0)
-        theta   = np.degrees(np.arccos(cos_th))
-        total_theta_deg += theta
+            if scene.shield.coating_type == "specular":
+                v_out = reflect_specular(v_in_unit, normal)
+            else:
+                v_out = reflect_diffuse(normal, rng)
 
-        # ---------- wafer intersection ----------
-        wafer_hit_pt = plane_intersection(hit, v_out, scene.wafer.z_offset)
-        if np.any(np.isnan(wafer_hit_pt)):
+            ray_pos = hit_pt
+            ray_dir = v_out
+
+            # deflection angle between –v_in and v_out
+            cos_th = np.clip(np.dot(-v_in_unit, v_out), -1.0, 1.0)
+            total_theta += np.degrees(np.arccos(cos_th))
+
+        # ---------- Wake-cone check ----------
+        if rays_hit_infinite_cone(ray_pos[None, :], ray_dir[None, :],
+                                  apex, axis, cos2_alpha)[0]:
+            wake_hits += 1
+
+        # ---------- Wafer check ----------
+        wafer_pt = plane_intersection(ray_pos, ray_dir, scene.wafer.z_offset)
+        if np.any(np.isnan(wafer_pt)):
             continue
 
-        wafer_ctr = np.array(
-            [scene.wafer.xy_offset[0], scene.wafer.xy_offset[1], scene.wafer.z_offset]
-        )
-        if disk_hit(wafer_hit_pt, wafer_ctr, scene.wafer.radius):
+        if disk_hit(wafer_pt, wafer_ctr, scene.wafer.radius):
             wafer_hits += 1
+            wake_hits  += 1          # wafer lies inside the cone by design
 
-    mean_deflection = total_theta_deg / batch_size
-    hit_ratio       = wafer_hits / batch_size
-    return mean_deflection, hit_ratio
+    mean_deflection_deg   = total_theta / batch_size
+    hit_ratio             = wafer_hits / batch_size
+    wake_intrusion_ratio  = wake_hits / batch_size
+
+    return mean_deflection_deg, hit_ratio, wake_intrusion_ratio

@@ -99,5 +99,36 @@ def disk_hit(point: np.ndarray, disk_center: np.ndarray, radius: float) -> bool:
 
     return dist2 <= radius**2
 
+# whether the wake is interupted by the particles
+def rays_hit_infinite_cone(o, d, apex, axis, cos2):
+    """
+    Return boolean array saying whether rays (o,d) intersect an infinite cone.
+
+    Parameters
+    ----------
+    o : (N,3)  ray origins
+    d : (N,3)  ray directions (unit length not required)
+    apex : (3,) tip of cone
+    axis : (3,) unit vector, cone axis (points downstream, -Z)
+    cos2 : float,  cos²α   where α is the half-opening angle
+    """
+    ao   = o - apex                       # vector from apex to origin
+    dv   = (d @ axis)                     # dot(d, axis)
+    av   = (ao @ axis)                    # dot(ao, axis)
+
+    # Quadratic coefficients for ‖ (ao + t d) × axis ‖² = (tanα)² ( (ao + t d)·axis )²
+    # Simplifies to:  (dv² - cos2‖d‖²)·t² + 2(dv·av - cos2 d·ao)·t + (av² - cos2‖ao‖²) = 0
+    d_norm2 = np.einsum("ij,ij->i", d, d)
+    ao_norm2 = np.einsum("ij,ij->i", ao, ao)
+    d_ao = np.einsum("ij,ij->i", d, ao)
+
+    A = dv**2 - cos2 * d_norm2
+    B = dv * av - cos2 * d_ao
+    C = av**2 - cos2 * ao_norm2
+    disc = B**2 - A * C
+
+    # Hit if there is a real root with t ≥ 0 and ray is pointing downstream (dv < 0)
+    return (disc >= 0) & (dv < 0)
+
 
     
