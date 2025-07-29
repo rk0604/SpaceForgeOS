@@ -80,7 +80,6 @@ def sphere_intersection(o, d, R):
         return np.full(3, np.nan)
     return o + t*d
 
-
 def disk_hit(point: np.ndarray, disk_center: np.ndarray, radius: float) -> bool:
     """
     Returns True if point lies within a radius of disk_center (XY plane).
@@ -130,5 +129,74 @@ def rays_hit_infinite_cone(o, d, apex, axis, cos2):
     # Hit if there is a real root with t ≥ 0 and ray is pointing downstream (dv < 0)
     return (disc >= 0) & (dv < 0)
 
+# -------------------------------------------------------------- Vectorized versions of the functions 
+# the vectorized verzion of sphere_intersection to accomodate larger batch sizes 
+def sphere_intersection_batch(pos, v, R):
+    # vectorized ray-sphere intersection with center at (0, 0, R)
+    oc = pos - np.array([0, 0, R])
+    b = np.sum(oc * v, axis=1)
+    c = np.sum(oc ** 2, axis=1) - R ** 2
+    discriminant = b ** 2 - c
+    valid = discriminant >= 0
 
-    
+    t = np.where(valid, -b - np.sqrt(discriminant), np.nan)
+    return pos + t[:, None] * v
+
+# vectorized version of plane_intersection
+def plane_intersection_batch(ray_origin: np.ndarray,
+                             ray_dir:    np.ndarray,
+                             plane_z:    float) -> np.ndarray:
+    """
+    Vectorized intersection of many rays with the plane z = plane_z.
+
+    Parameters
+    ----------
+    ray_origin : (N, 3) ndarray
+        Ray origins.
+    ray_dir    : (N, 3) ndarray
+        Ray directions.
+    plane_z    : float
+        Z-coordinate of the plane.
+
+    Returns
+    -------
+    (N, 3) ndarray
+        Intersection points; rows filled with NaNs where no intersection exists
+        (ray parallel to plane or intersection behind origin).
+    """
+    dz = ray_dir[:, 2]
+    parallel = np.abs(dz) < 1e-8                       # vectors ~‖ plane
+    t = np.divide(plane_z - ray_origin[:, 2],
+                  dz,
+                  out=np.full_like(dz, np.nan),
+                  where=~parallel)                     # avoid /0 for parallels
+    behind = t < 0.0                                   # hits behind origin
+    t[behind] = np.nan
+
+    # Broadcast t to (N, 1) then add to origins
+    return ray_origin + ray_dir * t[:, None]
+
+# vectorized version of disk_hit
+def disk_hit_batch(points:      np.ndarray,
+                   disk_center: np.ndarray,
+                   radius:      float) -> np.ndarray:
+    """
+    Boolean mask for whether each point lies inside a circular disk in the XY-plane.
+
+    Parameters
+    ----------
+    points      : (N, 3) ndarray
+    disk_center : (3,)   ndarray
+    radius      : float
+
+    Returns
+    -------
+    (N,) ndarray of bool
+        True  ⇒ point is inside or on the rim
+        False ⇒ point is outside
+    """
+    dx = points[:, 0] - disk_center[0]
+    dy = points[:, 1] - disk_center[1]
+    return dx**2 + dy**2 <= radius**2
+
+

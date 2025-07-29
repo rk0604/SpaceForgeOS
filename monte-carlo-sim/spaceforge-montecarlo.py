@@ -16,7 +16,7 @@ def main():
     records = []
     skipped  = 0              # track runs where wafer is outside the cone
 
-    for i in range(1000): # 1,000 scenes
+    for i in range(10000): # 1,000 scenes - 10,000 scenes
         shieldSample = Shield(
             radius=np.random.uniform(0.3, 1.0),
             curvature=np.random.uniform(1.5, 3.0),
@@ -55,7 +55,7 @@ def main():
 
         # ---------------------- build scene & run Monte-Carlo ----------------------
         scene = Scene(shield=shieldSample, wafer=waferSample, wake=wakeConeSample)
-        mean_deflect, hit_ratio, wake_ratio = trace_batch(scene, batch_size=10_000) # batch size increased to 
+        mean_deflect, hit_ratio, wake_ratio = trace_batch(scene, batch_size=10_000) # batch size increased to 10,000 particles per scene 
 
         records.append({
             "radius":            shieldSample.radius,
@@ -74,8 +74,8 @@ def main():
 
     # ---------------------- save + quick viz ----------------------
     df = pd.DataFrame.from_records(records)
-    df.to_csv("mc_data/mc_output6.csv", index=False)
-    print(f"Saved {len(df)} valid runs to mc_output6.csv   |   {skipped} skipped (wafer outside wake)")
+    df.to_csv("mc_data/mc_output2.csv", index=False)
+    print(f"Saved {len(df)} valid runs to mc_output2.csv   |   {skipped} skipped (wafer outside wake)")
 
     sns.relplot(data=df, x="radius", y="hit_ratio")
     # sns.relplot(data=df, x="radius", y="wake_intrusion_ratio")   # uncomment to inspect wake metric
