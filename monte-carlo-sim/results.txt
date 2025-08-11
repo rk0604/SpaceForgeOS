@@ -1,5 +1,0 @@
-== Simulation Log: mc_output1.csv ==
-
-
-
-

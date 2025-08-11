@@ -127,7 +127,8 @@ def rays_hit_infinite_cone(o, d, apex, axis, cos2):
     disc = B**2 - A * C
 
     # Hit if there is a real root with t ≥ 0 and ray is pointing downstream (dv < 0)
-    return (disc >= 0) & (dv < 0)
+    # return (disc >= 0) & (dv < 0)
+    return (disc >= 0) & (dv > 0)
 
 # -------------------------------------------------------------- Vectorized versions of the functions 
 # the vectorized verzion of sphere_intersection to accomodate larger batch sizes 
