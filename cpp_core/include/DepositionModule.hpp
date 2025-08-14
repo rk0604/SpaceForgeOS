@@ -2,7 +2,7 @@
 #define DEPOSITION_MODULE_HPP
 
 #include "Task.hpp"
-#include "PowerModule.hpp"
+#include "PowerBus.hpp"
 #include "Logger.hpp"
 #include <queue>
 #include <mutex>
