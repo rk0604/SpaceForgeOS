@@ -17,7 +17,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 from pathlib import Path
 
-FILE_NO = 4
+FILE_NO = 5
 
 def generate_random_float_tuple(length, min_val, max_val):
     return tuple(random.uniform(min_val, max_val) for _ in range(length))
@@ -86,7 +86,7 @@ def main():
         # ---------------------- wafer plane ------------------
         xy_offset = generate_random_float_tuple(2, -0.05, 0.05)
         waferSample = WaferPlane(
-            radius    = 0.15,                                           # 300 mm wafer for mc1-4 and 60mm wafer for mc5
+            radius    = 0.30,                                           # 300 mm wafer for mc1-4 and 60mm wafer for mc5
             z_offset  = -np.random.uniform(1.0, 1.5),                      # 0.5-1.0 for mc1, and 1.0-1.5 for mc2
             xy_offset = xy_offset,
         )

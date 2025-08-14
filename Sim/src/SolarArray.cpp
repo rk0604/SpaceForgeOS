@@ -20,7 +20,7 @@ double SolarArray::getLastOutput() const {
 void SolarArray::tick(const TickContext& ctx) {
     double solar_input = 1000.0 * std::fabs(std::cos(ctx.time)); // basic orbit cosine model
     double output = solar_input * efficiency_;
-    last_output_ = output;  // ✅ track output for logging
+    last_output_ = output;  // track output for logging
 
     std::cout << "[SolarArray] Generated: " << output << " W\n";
 
