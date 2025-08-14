@@ -1,0 +1,3 @@
+[submodule "cpp_core/external/sparta"]
+	path = cpp_core/external/sparta
+	url = https://github.com/sparta/sparta.git

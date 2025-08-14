@@ -1,4 +1,6 @@
 /** Compile command:
+ * 
+ * IMPORTANT: RUN USING mpirun -np 4 ./simulation
  *  (Windows MinGW)
  *    g++ -std=c++17 main.cpp PowerModule.cpp OrbitModel.cpp deposition_model.cpp Logger.cpp -I ../include -o simulation
  *

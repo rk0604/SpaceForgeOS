@@ -1,6 +1,0 @@
-time_utc,SolarArray_power_W,Battery_soc_pct,Battery_current_A,Battery_temp_C,PowerBus_voltage_V,HeaterBank_power_W,EffusionCell_temp_C,WakeChamber_pressure_torr,ChamberCleaner_power_W,AttitudeCtrl_power_W
-2025-07-01T00:00:00Z,2500,80,-5,20,28.4,150,850,1.20E-07,0,50
-2025-07-01T00:01:00Z,2400,82,-8,21,28.3,100,845,1.15E-07,0,45
-2025-07-01T00:02:00Z,500,79,15,22,27.8,0,830,1.30E-07,0,60
-2025-07-01T00:03:00Z,0,78,18,23,27.6,0,825,1.35E-07,500,70
-2025-07-01T00:04:00Z,2000,79,-2,22,28.1,120,840,1.22E-07,0,55
