@@ -32,4 +32,9 @@ def write_flat_disk_surf(filename, radius=1.0, n_segments=32, z=0.0):
     print(f"Wrote {filename} with {len(points)} points and {len(tris)} triangles.")
 
 # Example usage:
-write_flat_disk_surf("flat_disk.surf", radius=1.0, n_segments=32, z=0.0)
+# shield: 2.5 m-radius flat disk at z=0
+write_flat_disk_surf("cpp_core/assets/surf/flat_disk.surf", radius=2.5, n_segments=64, z=0.0)
+
+# wafer: 150 mm-radius disk 1.0 m downstream (negative z)
+write_flat_disk_surf("cpp_core/assets/surf/wafer_150mm_z-1.0.surf", radius=0.15, n_segments=64, z=-1.0)
+
