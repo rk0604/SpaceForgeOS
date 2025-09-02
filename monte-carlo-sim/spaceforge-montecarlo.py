@@ -17,7 +17,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 from pathlib import Path
 
-FILE_NO = 5
+FILE_NO = 2
 
 def generate_random_float_tuple(length, min_val, max_val):
     return tuple(random.uniform(min_val, max_val) for _ in range(length))
@@ -49,7 +49,7 @@ def main():
             radius    = edge_len
             curvature = 1.0                                  # placeholder
         elif profile == "pyramid":
-            radius    = np.random.uniform(1.0, 4.0)          # half-base, for mc2 1-2 and mc1 is 3-4, then 2-4 for mc3
+            radius    = np.random.uniform(1.0, 6.0)          # half-base, for mc2 1-2 and mc1 is 3-4, then 2-4 for mc3
             curvature = np.random.uniform(0.5, 1.5)          # h/r aspect
         elif profile == "flat":
             radius    = np.random.uniform(1.0, 6.0)          # mc1: 3-4, mc2: 1-2, mc3: 5-6
@@ -80,13 +80,12 @@ def main():
         profile_choice = random.choice(profiles)
 
         # ----------------------  shield ----------------------
-        thickness_mm = np.random.uniform(1.5, 3.0)
         shieldSample   = random_shield(profile_choice)
 
         # ---------------------- wafer plane ------------------
         xy_offset = generate_random_float_tuple(2, -0.05, 0.05)
         waferSample = WaferPlane(
-            radius    = 0.30,                                           # 300 mm wafer for mc1-4 and 60mm wafer for mc5
+            radius    = 0.15,                                           # 300 mm wafer for mc1-4 and 60mm wafer for mc5
             z_offset  = -np.random.uniform(1.0, 1.5),                      # 0.5-1.0 for mc1, and 1.0-1.5 for mc2
             xy_offset = xy_offset,
         )

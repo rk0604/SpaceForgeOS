@@ -381,13 +381,16 @@ def trace_batch(scene: Scene, batch_size: int, rng=None) -> tuple[float, float, 
 
     # 4) wake intrusion test
     if hasattr(scene.wake, "axis") and hasattr(scene.wake, "cos2"):
-        wake_mask = rays_hit_infinite_cone(ray_pos, ray_dir, apex=np.zeros(3),
-                                           axis=scene.wake.axis, cos2=scene.wake.cos2)
+        apex = getattr(scene.wake, "apex", np.zeros(3))  # use wake.apex if provided
+        wake_mask = rays_hit_infinite_cone(ray_pos, ray_dir, apex=apex,
+                                        axis=scene.wake.axis, cos2=scene.wake.cos2)
     else:
+        # (pyramid wake keeps existing path)
         slope = scene.wake.half_base / scene.wake.length
         cos2_alpha = 1.0 / (1.0 + slope**2)
-        wake_mask = rays_hit_infinite_cone(ray_pos, ray_dir, apex=np.zeros(3),
-                                           axis=np.array([0.0, 0.0, -1.0]), cos2=cos2_alpha)
+        wake_mask = rays_hit_infinite_cone(ray_pos, ray_dir, apex=np.array([0.0, 0.0, -scene.wake.length]),
+                                        axis=np.array([0.0, 0.0, -1.0]), cos2=cos2_alpha)
+
 
     # 5) wafer hit test
     wafer_ctr = np.array([*scene.wafer.xy_offset, scene.wafer.z_offset])

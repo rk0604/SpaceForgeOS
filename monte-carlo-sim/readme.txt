@@ -1,0 +1,1 @@
+Run1: all primary dims are random values between 1-6m, z-offset is between 1.0-1.5 meters and radius of 0.15meters

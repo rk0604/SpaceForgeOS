@@ -77,18 +77,29 @@ class WaferPlane:
 
 @dataclass(frozen=True)
 class WakeCone:
-    half_angle_deg: float        # alpha  (half–opening angle)
-    length: float                # how far downstream you care to monitor [m]
+    half_angle_deg: float
+    length: float
+    base_radius: float | None = None  # optional: if set, overrides half_angle
 
-    # returns the unit vector along the cone's central axis - scene.wake.axis
     @property
-    def axis(self) -> np.ndarray:        # global –Z by convention so the cone points downstream
+    def axis(self) -> np.ndarray:      # downstream is -Z
         return np.array([0.0, 0.0, -1.0])
 
-    # used repeatedly for intersection test 
     @property
-    def cos2(self) -> float:             # cos²(alpha) (pre-computed)
-        return 1.0 / (1.0 + np.tan(np.radians(self.half_angle_deg))**2)
+    def apex(self) -> np.ndarray:      # put the tip downstream
+        return np.array([0.0, 0.0, -self.length])
+
+    @property
+    def _alpha_deg(self) -> float:
+        # If you prefer to specify the base radius (at z=0), compute alpha from it
+        if self.base_radius is not None:
+            return np.degrees(np.arctan(self.base_radius / self.length))
+        return self.half_angle_deg
+
+    @property
+    def cos2(self) -> float:
+        a = np.radians(self._alpha_deg)
+        return 1.0 / (1.0 + np.tan(a)**2)
     
     
 @dataclass(frozen=True)
@@ -107,7 +118,7 @@ class PyramidWake:
 
     # 1. Face normals  (same four planes as shield, but with -z so they extend downstream)
     def face_normals(self, shield_height: float) -> np.ndarray:
-        slope = self.half_base / self.length          # tan(θ) of wake faces
+        slope = self.half_base / self.length          # tan(theta) of wake faces
         normals = np.array([
             [-slope,  0.0,  1.0],     # -x face   (points outward)
             [ slope,  0.0,  1.0],     #  x face
