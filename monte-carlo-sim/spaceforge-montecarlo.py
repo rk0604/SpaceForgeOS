@@ -86,7 +86,7 @@ def main():
         xy_offset = generate_random_float_tuple(2, -0.05, 0.05)
         waferSample = WaferPlane(
             radius    = 0.15,                                           # 300 mm wafer for mc1-4 and 60mm wafer for mc5
-            z_offset  = -np.random.uniform(1.0, 1.5),                      # 0.5-1.0 for mc1, and 1.0-1.5 for mc2
+            z_offset  = -np.random.uniform(5.0, 5.5),                      # 0.5-1.0 for mc1, and 1.0-1.5 for mc2
             xy_offset = xy_offset,
         )
 
@@ -177,7 +177,7 @@ def main():
 
     # ---------------------- save + quick viz -----------------
     df = pd.DataFrame.from_records(records)
-    CSV_OUT = f"mc_output{FILE_NO}"
+    CSV_OUT = f"mc_output_new_5_metere_standoff{FILE_NO}"
     df.to_csv(f"mc_data/{CSV_OUT}.csv", index=False)
     print(f"Saved {len(df):,} valid runs -> {CSV_OUT}.csv   |   {skipped:,} skipped (wafer outside wake)")
     

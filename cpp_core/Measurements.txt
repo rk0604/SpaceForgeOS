@@ -1,0 +1,4 @@
+Density ≈ 1.5 x 10¹⁴ particles/m³ - ideally 
+10⁻¹⁴ torr is equal to 1.333 x 10⁻¹² Pascals
+
+standard - at 300km leo the pressure is an ultra-high vacuum and is estimated to be approximately 10^-8 Torr or 1.33*10^-6 Pa
